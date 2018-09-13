@@ -3,14 +3,14 @@ CLOCK_50 => clk_1Hz:CK.clk_50MHz
 SW[0] => clk_1Hz:CK.rstb
 SW[0] => Counter_updn_n_bit_modif:DUT.rstb
 SW[1] => Counter_updn_n_bit_modif:DUT.dir
-LEDR[0] <= Counter_updn_n_bit_modif:DUT.bout[0]
-LEDR[1] <= Counter_updn_n_bit_modif:DUT.bout[1]
-LEDR[2] <= Counter_updn_n_bit_modif:DUT.bout[2]
-LEDR[3] <= Counter_updn_n_bit_modif:DUT.bout[3]
-LEDR[4] <= Counter_updn_n_bit_modif:DUT.bout[4]
-LEDR[5] <= Counter_updn_n_bit_modif:DUT.bout[5]
-LEDR[6] <= Counter_updn_n_bit_modif:DUT.bout[6]
-LEDR[7] <= Counter_updn_n_bit_modif:DUT.bout[7]
+LEDR[0] << Counter_updn_n_bit_modif:DUT.bout[0]
+LEDR[1] << Counter_updn_n_bit_modif:DUT.bout[1]
+LEDR[2] << Counter_updn_n_bit_modif:DUT.bout[2]
+LEDR[3] << Counter_updn_n_bit_modif:DUT.bout[3]
+LEDR[4] << Counter_updn_n_bit_modif:DUT.bout[4]
+LEDR[5] << Counter_updn_n_bit_modif:DUT.bout[5]
+LEDR[6] << Counter_updn_n_bit_modif:DUT.bout[6]
+LEDR[7] << Counter_updn_n_bit_modif:DUT.bout[7]
 
 
 |Counter_updn_n_bit_modif_de10|clk_1Hz:CK

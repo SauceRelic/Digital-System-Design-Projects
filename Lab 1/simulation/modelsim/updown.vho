@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
 
--- DATE "09/06/2018 11:47:10"
+-- DATE "09/13/2018 08:41:43"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -91,7 +91,7 @@ ENTITY 	counter_updn_n_bit_modif_de10 IS
     PORT (
 	CLOCK_50 : IN std_logic;
 	SW : IN std_logic_vector(1 DOWNTO 0);
-	LEDR : OUT std_logic_vector(7 DOWNTO 0)
+	LEDR : BUFFER std_logic_vector(7 DOWNTO 0)
 	);
 END counter_updn_n_bit_modif_de10;
 
