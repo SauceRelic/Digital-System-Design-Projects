@@ -1,11 +1,11 @@
-Fitter Status : Successful - Thu Sep 13 08:41:31 2018
+Fitter Status : Successful - Thu Sep 13 09:26:13 2018
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : updown
 Top-level Entity Name : counter_updn_n_bit_modif_de10
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 39 / 49,760 ( < 1 % )
+Total logic elements : 38 / 49,760 ( < 1 % )
     Total combinational functions : 38 / 49,760 ( < 1 % )
     Dedicated logic registers : 35 / 49,760 ( < 1 % )
 Total registers : 35
