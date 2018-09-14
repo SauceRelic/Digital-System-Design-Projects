@@ -1,5 +1,5 @@
 Flow report for updown
-Thu Sep 13 09:26:24 2018
+Thu Sep 13 10:10:28 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,24 +40,24 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Sep 13 09:26:24 2018       ;
+; Flow Status                        ; Successful - Thu Sep 13 10:10:28 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; updown                                      ;
-; Top-level Entity Name              ; counter_updn_n_bit_modif_de10               ;
+; Top-level Entity Name              ; counter_updn_n_bit_de10                     ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 38 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 38 / 49,760 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 35 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 35                                          ;
-; Total pins                         ; 11 / 360 ( 3 % )                            ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
-; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
-; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
+; UFM blocks                         ; N/A until Partition Merge                   ;
+; ADC blocks                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -66,81 +66,69 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/13/2018 09:25:53 ;
+; Start date & time ; 09/13/2018 10:10:17 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; updown              ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                      ;
-+--------------------------------------+----------------------------------------+---------------+-------------------------------+-----------------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name                   ; Section Id            ;
-+--------------------------------------+----------------------------------------+---------------+-------------------------------+-----------------------+
-; COMPILER_SIGNATURE_ID                ; 2543711158273.153684875211712          ; --            ; --                            ; --                    ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --                            ; Counter_updn_n_bit_tb ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Counter_updn_n_bit_tb                  ; --            ; --                            ; eda_simulation        ;
-; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --                            ; eda_simulation        ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                 ; <None>        ; --                            ; --                    ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --                            ; eda_simulation        ;
-; EDA_TEST_BENCH_FILE                  ; Counter_updn_n_bit_tb.vhdl             ; --            ; --                            ; Counter_updn_n_bit_tb ;
-; EDA_TEST_BENCH_MODULE_NAME           ; Counter_updn_n_bit_tb                  ; --            ; --                            ; Counter_updn_n_bit_tb ;
-; EDA_TEST_BENCH_NAME                  ; Counter_updn_n_bit_tb                  ; --            ; --                            ; eda_simulation        ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10300 ns                               ; --            ; --                            ; Counter_updn_n_bit_tb ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --                            ; eda_simulation        ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --                            ; --                    ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --                            ; --                    ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --            ; --                            ; --                    ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --            ; --                            ; --                    ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --            ; --                            ; --                    ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --            ; --                            ; --                    ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_modif_de10 ; Top                   ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_modif_de10 ; Top                   ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_modif_de10 ; Top                   ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --                            ; --                    ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                            ; --                    ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --                            ; --                    ;
-; TOP_LEVEL_ENTITY                     ; Counter_updn_n_bit_modif_de10          ; updown        ; --                            ; --                    ;
-; VHDL_INPUT_VERSION                   ; VHDL_2008                              ; VHDL_1993     ; --                            ; --                    ;
-; VHDL_SHOW_LMF_MAPPING_MESSAGES       ; Off                                    ; --            ; --                            ; --                    ;
-+--------------------------------------+----------------------------------------+---------------+-------------------------------+-----------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++--------------------------------------+----------------------------------------+---------------+-------------------------+-----------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name             ; Section Id            ;
++--------------------------------------+----------------------------------------+---------------+-------------------------+-----------------------+
+; COMPILER_SIGNATURE_ID                ; 2543711158273.153685141704000          ; --            ; --                      ; --                    ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --                      ; Counter_updn_n_bit_tb ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Counter_updn_n_bit_tb                  ; --            ; --                      ; eda_simulation        ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --                      ; eda_simulation        ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                 ; <None>        ; --                      ; --                    ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --                      ; eda_simulation        ;
+; EDA_TEST_BENCH_FILE                  ; Counter_updn_n_bit_tb.vhdl             ; --            ; --                      ; Counter_updn_n_bit_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Counter_updn_n_bit_tb                  ; --            ; --                      ; Counter_updn_n_bit_tb ;
+; EDA_TEST_BENCH_NAME                  ; Counter_updn_n_bit_tb                  ; --            ; --                      ; eda_simulation        ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10300 ns                               ; --            ; --                      ; Counter_updn_n_bit_tb ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --                      ; eda_simulation        ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --                      ; --                    ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --                      ; --                    ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --            ; --                      ; --                    ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --            ; --                      ; --                    ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --            ; --                      ; --                    ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --            ; --                      ; --                    ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_de10 ; Top                   ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_de10 ; Top                   ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; Counter_updn_n_bit_de10 ; Top                   ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --                      ; --                    ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                      ; --                    ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --                      ; --                    ;
+; TOP_LEVEL_ENTITY                     ; Counter_updn_n_bit_de10                ; updown        ; --                      ; --                    ;
+; VHDL_INPUT_VERSION                   ; VHDL_2008                              ; VHDL_1993     ; --                      ; --                    ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES       ; Off                                    ; --            ; --                      ; --                    ;
++--------------------------------------+----------------------------------------+---------------+-------------------------+-----------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4807 MB             ; 00:00:27                           ;
-; Fitter               ; 00:00:07     ; 1.0                     ; 5651 MB             ; 00:00:11                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4702 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4837 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4658 MB             ; 00:00:01                           ;
-; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:45                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4799 MB             ; 00:00:26                           ;
+; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:26                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off updown -c updown
-quartus_fit --read_settings_files=off --write_settings_files=off updown -c updown
-quartus_asm --read_settings_files=off --write_settings_files=off updown -c updown
-quartus_sta updown -c updown
-quartus_eda --read_settings_files=off --write_settings_files=off updown -c updown
+quartus_map --read_settings_files=on --write_settings_files=off updown -c updown --analysis_and_elaboration
 
 
 

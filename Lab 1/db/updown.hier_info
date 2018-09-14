@@ -1,19 +1,19 @@
-|Counter_updn_n_bit_modif_de10
-CLOCK_50 => clk_1Hz:CK.clk_50MHz
-SW[0] => clk_1Hz:CK.rstb
-SW[0] => Counter_updn_n_bit_modif:DUT.rstb
-SW[1] => Counter_updn_n_bit_modif:DUT.dir
-LEDR[0] << Counter_updn_n_bit_modif:DUT.bout[0]
-LEDR[1] << Counter_updn_n_bit_modif:DUT.bout[1]
-LEDR[2] << Counter_updn_n_bit_modif:DUT.bout[2]
-LEDR[3] << Counter_updn_n_bit_modif:DUT.bout[3]
-LEDR[4] << Counter_updn_n_bit_modif:DUT.bout[4]
-LEDR[5] << Counter_updn_n_bit_modif:DUT.bout[5]
-LEDR[6] << Counter_updn_n_bit_modif:DUT.bout[6]
-LEDR[7] << Counter_updn_n_bit_modif:DUT.bout[7]
+|Counter_updn_n_bit_de10
+CLOCK_50 => clk_3Hz:CK.clk_50MHz
+SW[0] => clk_3Hz:CK.rstb
+SW[0] => Counter_updn_n_bit:DUT.rstb
+SW[1] => Counter_updn_n_bit:DUT.dir
+LEDR[0] << Counter_updn_n_bit:DUT.bout[0]
+LEDR[1] << Counter_updn_n_bit:DUT.bout[1]
+LEDR[2] << Counter_updn_n_bit:DUT.bout[2]
+LEDR[3] << Counter_updn_n_bit:DUT.bout[3]
+LEDR[4] << Counter_updn_n_bit:DUT.bout[4]
+LEDR[5] << Counter_updn_n_bit:DUT.bout[5]
+LEDR[6] << Counter_updn_n_bit:DUT.bout[6]
+LEDR[7] << Counter_updn_n_bit:DUT.bout[7]
 
 
-|Counter_updn_n_bit_modif_de10|clk_1Hz:CK
+|Counter_updn_n_bit_de10|clk_3Hz:CK
 clk_50MHz => clk_out.CLK
 clk_50MHz => cnt[0].CLK
 clk_50MHz => cnt[1].CLK
@@ -40,38 +40,36 @@ clk_50MHz => cnt[21].CLK
 clk_50MHz => cnt[22].CLK
 clk_50MHz => cnt[23].CLK
 clk_50MHz => cnt[24].CLK
-clk_50MHz => cnt[25].CLK
 rstb => clk_out.ACLR
-rstb => cnt[0].PRESET
-rstb => cnt[1].PRESET
+rstb => cnt[0].ACLR
+rstb => cnt[1].ACLR
 rstb => cnt[2].PRESET
-rstb => cnt[3].PRESET
+rstb => cnt[3].ACLR
 rstb => cnt[4].PRESET
-rstb => cnt[5].PRESET
+rstb => cnt[5].ACLR
 rstb => cnt[6].ACLR
 rstb => cnt[7].ACLR
 rstb => cnt[8].ACLR
 rstb => cnt[9].ACLR
 rstb => cnt[10].ACLR
 rstb => cnt[11].PRESET
-rstb => cnt[12].PRESET
+rstb => cnt[12].ACLR
 rstb => cnt[13].PRESET
-rstb => cnt[14].PRESET
+rstb => cnt[14].ACLR
 rstb => cnt[15].ACLR
 rstb => cnt[16].PRESET
-rstb => cnt[17].ACLR
+rstb => cnt[17].PRESET
 rstb => cnt[18].PRESET
 rstb => cnt[19].PRESET
 rstb => cnt[20].PRESET
 rstb => cnt[21].PRESET
 rstb => cnt[22].PRESET
 rstb => cnt[23].ACLR
-rstb => cnt[24].PRESET
-rstb => cnt[25].ACLR
-clk_1Hz <= clk_out.DB_MAX_OUTPUT_PORT_TYPE
+rstb => cnt[24].ACLR
+clk_3Hz <= clk_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Counter_updn_n_bit_modif_de10|Counter_updn_n_bit_modif:DUT
+|Counter_updn_n_bit_de10|Counter_updn_n_bit:DUT
 clk => bout_sig[0].CLK
 clk => bout_sig[1].CLK
 clk => bout_sig[2].CLK
@@ -95,7 +93,7 @@ dir => bout_sig.OUTPUTSELECT
 dir => bout_sig.OUTPUTSELECT
 dir => bout_sig.OUTPUTSELECT
 dir => bout_sig.OUTPUTSELECT
-dir => bout_sig[0].ENA
+dir => bout_sig.OUTPUTSELECT
 bout[0] <= bout_sig[0].DB_MAX_OUTPUT_PORT_TYPE
 bout[1] <= bout_sig[1].DB_MAX_OUTPUT_PORT_TYPE
 bout[2] <= bout_sig[2].DB_MAX_OUTPUT_PORT_TYPE

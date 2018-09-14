@@ -8,25 +8,25 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/simulation/modelsim
-Ecounter_updn_n_bit_modif
-Z1 w1536248155
+Ecounter_updn_n_bit
+Z1 w1536244294
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl
-Z6 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl
+Z5 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl
+Z6 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl
 l0
-L32
-V:^l?QfPdARKFa_D4JkdUF0
-!s100 JAORdKQO9bR;e^Y8APk]z0
+L31
+VB7S>jMiKJBNTDzKmAOlVT0
+!s100 D`0ff<XW5koAB`g]M?@z_0
 Z7 OV;C;10.5b;63
 33
-Z8 !s110 1536845980
+Z8 !s110 1536849821
 !i10b 1
-Z9 !s108 1536845980.000000
-Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl|
-Z11 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl|
+Z9 !s108 1536849821.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl|
+Z11 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl|
 !i113 1
 Z12 o-2008 -work work
 Z13 tExplicit 1 CvgOpt 0
@@ -34,11 +34,11 @@ Abehavioral
 R2
 R3
 R4
-DEx4 work 24 counter_updn_n_bit_modif 0 22 :^l?QfPdARKFa_D4JkdUF0
-l50
-L44
-V5_44`4Dgc4mn?Sa::iQbi0
-!s100 _OchWS9Fi>EdnDU@N]b`i3
+DEx4 work 18 counter_updn_n_bit 0 22 B7S>jMiKJBNTDzKmAOlVT0
+l49
+L43
+VhiVc?FmVn53dmS>]]0;G_0
+!s100 kbafKl40a@AkBi^@A=V`L3
 R7
 33
 R8
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Ecounter_updn_n_bit_tb
-Z14 w1536248922
+Z14 w1536849801
 R3
 R4
 R0
@@ -76,8 +76,8 @@ R4
 DEx4 work 21 counter_updn_n_bit_tb 0 22 bKYHbl;Rab_[=]H^6OLk02
 l43
 L23
-Vl4hM`J5iJ?9WGJleng8nb3
-!s100 5ik=Dk>5b8:@JA]LO8mFz0
+VlMWjEB@RPe1][06<S8;aK2
+!s100 nRfYFamWAbi>RlUhF3FUX1
 R7
 33
 R8

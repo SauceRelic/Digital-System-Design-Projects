@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "wout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "word[1]",
+					"strict" : false
+				},
+				{
+					"name" : "shift[0]",
+					"strict" : false
+				},
+				{
+					"name" : "shift[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dir",
+					"strict" : false
+				},
+				{
+					"name" : "word[2]",
+					"strict" : false
+				},
+				{
+					"name" : "word[0]",
+					"strict" : false
+				},
+				{
+					"name" : "word[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

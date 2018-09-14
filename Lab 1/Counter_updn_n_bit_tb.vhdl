@@ -29,7 +29,7 @@ architecture testbench of counter_updn_n_bit_tb is
 --------------------------------
 -- Component prototype
 ---------------------------------
-  component counter_updn_n_bit_modif
+  component counter_updn_n_bit
     generic ( n : NATURAL := 8 );
     port
     (
@@ -44,7 +44,7 @@ begin
 ------------------------------------
 -- Device under test (DUT)
 ------------------------------------
-  DUT: Counter_updn_n_bit_modif
+  DUT: Counter_updn_n_bit
   generic map(
     n => N
   )

@@ -10,40 +10,40 @@
 # Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl}
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:39:40 on Sep 13,2018
-# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif.vhdl 
+# Start time: 09:43:41 on Sep 13,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity Counter_updn_n_bit_modif
-# -- Compiling architecture behavioral of Counter_updn_n_bit_modif
-# End time: 08:39:40 on Sep 13,2018, Elapsed time: 0:00:00
+# -- Compiling entity Counter_updn_n_bit
+# -- Compiling architecture behavioral of Counter_updn_n_bit
+# End time: 09:43:41 on Sep 13,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_tb.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:39:40 on Sep 13,2018
+# Start time: 09:43:41 on Sep 13,2018
 # vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_tb.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity counter_updn_n_bit_tb
 # -- Compiling architecture testbench of counter_updn_n_bit_tb
-# End time: 08:39:40 on Sep 13,2018, Elapsed time: 0:00:00
+# End time: 09:43:41 on Sep 13,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Counter_updn_n_bit_tb
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Counter_updn_n_bit_tb 
-# Start time: 08:39:41 on Sep 13,2018
+# Start time: 09:43:41 on Sep 13,2018
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.counter_updn_n_bit_tb(testbench)
 # Loading ieee.numeric_std(body)
-# Loading work.counter_updn_n_bit_modif(behavioral)
+# Loading work.counter_updn_n_bit(behavioral)
 # 
 # add wave *
 # view structure
@@ -51,5 +51,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 10300 ns
-# End time: 09:03:27 on Sep 13,2018, Elapsed time: 0:23:46
+# End time: 09:45:09 on Sep 13,2018, Elapsed time: 0:01:28
 # Errors: 0, Warnings: 0

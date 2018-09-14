@@ -1,0 +1,8 @@
+|dt_flipflop
+clk => q~reg0.CLK
+rstb => q~reg0.ACLR
+d => q.DATAA
+t => q.OUTPUTSELECT
+q << q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

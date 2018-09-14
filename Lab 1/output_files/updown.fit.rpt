@@ -1,5 +1,5 @@
 Fitter report for updown
-Thu Sep 13 09:26:13 2018
+Thu Sep 13 09:45:41 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -66,17 +66,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Sep 13 09:26:13 2018       ;
+; Fitter Status                      ; Successful - Thu Sep 13 09:45:41 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; updown                                      ;
-; Top-level Entity Name              ; counter_updn_n_bit_modif_de10               ;
+; Top-level Entity Name              ; counter_updn_n_bit_de10                     ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 38 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 38 / 49,760 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 35 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 35                                          ;
+; Total logic elements               ; 35 / 49,760 ( < 1 % )                       ;
+;     Total combinational functions  ; 35 / 49,760 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 34 / 49,760 ( < 1 % )                       ;
+; Total registers                    ; 34                                          ;
 ; Total pins                         ; 11 / 360 ( 3 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
@@ -350,8 +350,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 116 ) ; 0.00 % ( 0 / 116 )         ; 0.00 % ( 0 / 116 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 116 ) ; 0.00 % ( 0 / 116 )         ; 0.00 % ( 0 / 116 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 112 ) ; 0.00 % ( 0 / 112 )         ; 0.00 % ( 0 / 112 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 112 ) ; 0.00 % ( 0 / 112 )         ; 0.00 % ( 0 / 112 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -374,7 +374,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 100 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 96 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 16 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -390,26 +390,26 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 +---------------------------------------------+-----------------------+
 ; Resource                                    ; Usage                 ;
 +---------------------------------------------+-----------------------+
-; Total logic elements                        ; 38 / 49,760 ( < 1 % ) ;
-;     -- Combinational with no register       ; 3                     ;
+; Total logic elements                        ; 35 / 49,760 ( < 1 % ) ;
+;     -- Combinational with no register       ; 1                     ;
 ;     -- Register only                        ; 0                     ;
-;     -- Combinational with a register        ; 35                    ;
+;     -- Combinational with a register        ; 34                    ;
 ;                                             ;                       ;
 ; Logic element usage by number of LUT inputs ;                       ;
 ;     -- 4 input functions                    ; 0                     ;
-;     -- 3 input functions                    ; 7                     ;
-;     -- <=2 input functions                  ; 31                    ;
+;     -- 3 input functions                    ; 6                     ;
+;     -- <=2 input functions                  ; 29                    ;
 ;     -- Register only                        ; 0                     ;
 ;                                             ;                       ;
 ; Logic elements by mode                      ;                       ;
-;     -- normal mode                          ; 6                     ;
-;     -- arithmetic mode                      ; 32                    ;
+;     -- normal mode                          ; 4                     ;
+;     -- arithmetic mode                      ; 31                    ;
 ;                                             ;                       ;
-; Total registers*                            ; 35 / 51,509 ( < 1 % ) ;
-;     -- Dedicated logic registers            ; 35 / 49,760 ( < 1 % ) ;
+; Total registers*                            ; 34 / 51,509 ( < 1 % ) ;
+;     -- Dedicated logic registers            ; 34 / 49,760 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 1,749 ( 0 % )     ;
 ;                                             ;                       ;
-; Total LABs:  partially or completely used   ; 3 / 3,110 ( < 1 % )   ;
+; Total LABs:  partially or completely used   ; 4 / 3,110 ( < 1 % )   ;
 ; Virtual pins                                ; 0                     ;
 ; I/O pins                                    ; 11 / 360 ( 3 % )      ;
 ;     -- Clock pins                           ; 1 / 8 ( 13 % )        ;
@@ -431,10 +431,10 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )         ;
 ; Average interconnect usage (total/H/V)      ; 0.0% / 0.0% / 0.0%    ;
 ; Peak interconnect usage (total/H/V)         ; 0.2% / 0.2% / 0.2%    ;
-; Maximum fan-out                             ; 43                    ;
-; Highest non-global fan-out                  ; 43                    ;
-; Total fan-out                               ; 269                   ;
-; Average fan-out                             ; 2.32                  ;
+; Maximum fan-out                             ; 42                    ;
+; Highest non-global fan-out                  ; 42                    ;
+; Total fan-out                               ; 257                   ;
+; Average fan-out                             ; 2.29                  ;
 +---------------------------------------------+-----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -447,26 +447,26 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 +---------------------------------------------+----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                  ; Low                            ;
 ;                                             ;                      ;                                ;
-; Total logic elements                        ; 38 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
-;     -- Combinational with no register       ; 3                    ; 0                              ;
+; Total logic elements                        ; 35 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
+;     -- Combinational with no register       ; 1                    ; 0                              ;
 ;     -- Register only                        ; 0                    ; 0                              ;
-;     -- Combinational with a register        ; 35                   ; 0                              ;
+;     -- Combinational with a register        ; 34                   ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic element usage by number of LUT inputs ;                      ;                                ;
 ;     -- 4 input functions                    ; 0                    ; 0                              ;
-;     -- 3 input functions                    ; 7                    ; 0                              ;
-;     -- <=2 input functions                  ; 31                   ; 0                              ;
+;     -- 3 input functions                    ; 6                    ; 0                              ;
+;     -- <=2 input functions                  ; 29                   ; 0                              ;
 ;     -- Register only                        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic elements by mode                      ;                      ;                                ;
-;     -- normal mode                          ; 6                    ; 0                              ;
-;     -- arithmetic mode                      ; 32                   ; 0                              ;
+;     -- normal mode                          ; 4                    ; 0                              ;
+;     -- arithmetic mode                      ; 31                   ; 0                              ;
 ;                                             ;                      ;                                ;
-; Total registers                             ; 35                   ; 0                              ;
-;     -- Dedicated logic registers            ; 35 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
+; Total registers                             ; 34                   ; 0                              ;
+;     -- Dedicated logic registers            ; 34 / 49760 ( < 1 % ) ; 0 / 49760 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
-; Total LABs:  partially or completely used   ; 3 / 3110 ( < 1 % )   ; 0 / 3110 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 4 / 3110 ( < 1 % )   ; 0 / 3110 ( 0 % )               ;
 ;                                             ;                      ;                                ;
 ; Virtual pins                                ; 0                    ; 0                              ;
 ; I/O pins                                    ; 11                   ; 0                              ;
@@ -484,8 +484,8 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 ;     -- Registered Output Connections        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Internal Connections                        ;                      ;                                ;
-;     -- Total Connections                    ; 275                  ; 8                              ;
-;     -- Registered Connections               ; 72                   ; 0                              ;
+;     -- Total Connections                    ; 263                  ; 8                              ;
+;     -- Registered Connections               ; 69                   ; 0                              ;
 ;                                             ;                      ;                                ;
 ; External Connections                        ;                      ;                                ;
 ;     -- Top                                  ; 0                    ; 0                              ;
@@ -517,9 +517,9 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
-; CLOCK_50 ; P11   ; 3        ; 34           ; 0            ; 28           ; 27                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
-; SW[0]    ; C10   ; 7        ; 51           ; 54           ; 28           ; 35                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
-; SW[1]    ; C11   ; 7        ; 51           ; 54           ; 21           ; 10                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; CLOCK_50 ; P11   ; 3        ; 34           ; 0            ; 28           ; 26                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; SW[0]    ; C10   ; 7        ; 51           ; 54           ; 28           ; 34                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
+; SW[1]    ; C11   ; 7        ; 51           ; 54           ; 21           ; 7                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ; 0         ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
@@ -1078,21 +1078,21 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; LEDR[5]  ; Incomplete set of assignments ;
 ; LEDR[6]  ; Incomplete set of assignments ;
 ; LEDR[7]  ; Incomplete set of assignments ;
-; SW[1]    ; Incomplete set of assignments ;
 ; SW[0]    ; Incomplete set of assignments ;
+; SW[1]    ; Incomplete set of assignments ;
 ; CLOCK_50 ; Incomplete set of assignments ;
 +----------+-------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                    ;
-+-----------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------+-------------------------------+--------------+
-; Compilation Hierarchy Node        ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                                         ; Entity Name                   ; Library Name ;
-+-----------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------+-------------------------------+--------------+
-; |counter_updn_n_bit_modif_de10    ; 38 (1)      ; 35 (0)                    ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 11   ; 0            ; 3 (1)        ; 0 (0)             ; 35 (0)           ; 0          ; |counter_updn_n_bit_modif_de10                              ; counter_updn_n_bit_modif_de10 ; work         ;
-;    |Counter_updn_n_bit_modif:DUT| ; 10 (10)     ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 8 (8)            ; 0          ; |counter_updn_n_bit_modif_de10|Counter_updn_n_bit_modif:DUT ; Counter_updn_n_bit_modif      ; work         ;
-;    |clk_1Hz:CK|                   ; 27 (27)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 27 (27)          ; 0          ; |counter_updn_n_bit_modif_de10|clk_1Hz:CK                   ; clk_1Hz                       ; work         ;
-+-----------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------------------+-------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                            ;
++-----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node  ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                             ; Entity Name             ; Library Name ;
++-----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------+-------------------------+--------------+
+; |counter_updn_n_bit_de10    ; 35 (1)      ; 34 (0)                    ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 11   ; 0            ; 1 (1)        ; 0 (0)             ; 34 (0)           ; 0          ; |counter_updn_n_bit_de10                        ; counter_updn_n_bit_de10 ; work         ;
+;    |Counter_updn_n_bit:DUT| ; 8 (8)       ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 8 (8)            ; 0          ; |counter_updn_n_bit_de10|Counter_updn_n_bit:DUT ; Counter_updn_n_bit      ; work         ;
+;    |clk_3Hz:CK|             ; 26 (26)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 26 (26)          ; 0          ; |counter_updn_n_bit_de10|clk_3Hz:CK             ; clk_3Hz                 ; work         ;
++-----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-------------------------------------------------+-------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1109,66 +1109,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; LEDR[5]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; LEDR[6]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; LEDR[7]  ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; SW[0]    ; Input    ; --            ; (6) 868 ps    ; --                    ; --  ; --   ;
 ; SW[1]    ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
-; SW[0]    ; Input    ; (6) 868 ps    ; --            ; --                    ; --  ; --   ;
 ; CLOCK_50 ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
 +----------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+----------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                   ;
-+----------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                ; Pad To Core Index ; Setting ;
-+----------------------------------------------------+-------------------+---------+
-; SW[1]                                              ;                   ;         ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[1]~10 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[2]~12 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[3]~14 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[4]~16 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[5]~18 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[6]~20 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[7]~22 ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[1]~9  ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[0]~7  ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|Add0~0         ; 0                 ; 6       ;
-; SW[0]                                              ;                   ;         ;
-;      - clk_1Hz:CK|clk_out                          ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[0]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[1]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[2]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[3]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[4]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[5]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[6]    ; 0                 ; 6       ;
-;      - Counter_updn_n_bit_modif:DUT|bout_sig[7]    ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[25]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[24]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[23]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[22]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[21]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[20]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[19]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[18]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[17]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[16]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[15]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[14]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[13]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[12]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[11]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[10]                          ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[9]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[8]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[7]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[6]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[5]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[4]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[3]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[2]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[1]                           ; 0                 ; 6       ;
-;      - clk_1Hz:CK|cnt[0]                           ; 0                 ; 6       ;
-; CLOCK_50                                           ;                   ;         ;
-+----------------------------------------------------+-------------------+---------+
++----------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                             ;
++----------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                          ; Pad To Core Index ; Setting ;
++----------------------------------------------+-------------------+---------+
+; SW[0]                                        ;                   ;         ;
+;      - clk_3Hz:CK|clk_out                    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[0]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[1]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[2]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[3]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[4]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[5]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[6]    ; 1                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[7]    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[24]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[23]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[22]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[21]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[20]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[19]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[18]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[17]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[16]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[15]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[14]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[13]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[12]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[11]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[10]                    ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[9]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[8]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[7]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[6]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[5]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[4]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[3]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[2]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[1]                     ; 1                 ; 6       ;
+;      - clk_3Hz:CK|cnt[0]                     ; 1                 ; 6       ;
+; SW[1]                                        ;                   ;         ;
+;      - Counter_updn_n_bit:DUT|bout_sig[1]~10 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[2]~12 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[3]~14 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[4]~16 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[5]~18 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[6]~20 ; 0                 ; 6       ;
+;      - Counter_updn_n_bit:DUT|bout_sig[7]~22 ; 0                 ; 6       ;
+; CLOCK_50                                     ;                   ;         ;
++----------------------------------------------+-------------------+---------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1177,21 +1173,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name               ; Location      ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +--------------------+---------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; CLOCK_50           ; PIN_P11       ; 2       ; Clock        ; no     ; --                   ; --               ; --                        ;
-; CLOCK_50           ; PIN_P11       ; 26      ; Clock        ; yes    ; Global Clock         ; GCLK19           ; --                        ;
-; SW[0]              ; PIN_C10       ; 35      ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; clk_1Hz:CK|clk_out ; FF_X43_Y4_N29 ; 8       ; Clock        ; yes    ; Global Clock         ; GCLK18           ; --                        ;
-; clk_1Hz:CK|cnt[25] ; FF_X43_Y4_N25 ; 28      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; CLOCK_50           ; PIN_P11       ; 25      ; Clock        ; yes    ; Global Clock         ; GCLK19           ; --                        ;
+; SW[0]              ; PIN_C10       ; 34      ; Async. clear ; no     ; --                   ; --               ; --                        ;
+; clk_3Hz:CK|clk_out ; FF_X45_Y1_N1  ; 8       ; Clock        ; yes    ; Global Clock         ; GCLK18           ; --                        ;
+; clk_3Hz:CK|cnt[24] ; FF_X46_Y4_N25 ; 27      ; Sync. load   ; no     ; --                   ; --               ; --                        ;
 +--------------------+---------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Global & Other Fast Signals                                                                                                                               ;
-+--------------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; Name               ; Location      ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+--------------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; CLOCK_50           ; PIN_P11       ; 26      ; 0                                    ; Global Clock         ; GCLK19           ; --                        ;
-; clk_1Hz:CK|clk_out ; FF_X43_Y4_N29 ; 8       ; 0                                    ; Global Clock         ; GCLK18           ; --                        ;
-+--------------------+---------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Global & Other Fast Signals                                                                                                                              ;
++--------------------+--------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; Name               ; Location     ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++--------------------+--------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
+; CLOCK_50           ; PIN_P11      ; 25      ; 0                                    ; Global Clock         ; GCLK19           ; --                        ;
+; clk_3Hz:CK|clk_out ; FF_X45_Y1_N1 ; 8       ; 0                                    ; Global Clock         ; GCLK18           ; --                        ;
++--------------------+--------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
 +------------------------------------------------+
@@ -1199,62 +1195,61 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 24 / 148,641 ( < 1 % ) ;
-; C16 interconnects     ; 3 / 5,382 ( < 1 % )    ;
-; C4 interconnects      ; 30 / 106,704 ( < 1 % ) ;
+; Block interconnects   ; 26 / 148,641 ( < 1 % ) ;
+; C16 interconnects     ; 4 / 5,382 ( < 1 % )    ;
+; C4 interconnects      ; 29 / 106,704 ( < 1 % ) ;
 ; Direct links          ; 3 / 148,641 ( < 1 % )  ;
 ; Global clocks         ; 2 / 20 ( 10 % )        ;
-; Local interconnects   ; 32 / 49,760 ( < 1 % )  ;
+; Local interconnects   ; 30 / 49,760 ( < 1 % )  ;
 ; NSLEEPs               ; 0 / 500 ( 0 % )        ;
-; R24 interconnects     ; 1 / 5,406 ( < 1 % )    ;
-; R4 interconnects      ; 16 / 147,764 ( < 1 % ) ;
+; R24 interconnects     ; 2 / 5,406 ( < 1 % )    ;
+; R4 interconnects      ; 17 / 147,764 ( < 1 % ) ;
 +-----------------------+------------------------+
 
 
-+---------------------------------------------------------------------------+
-; LAB Logic Elements                                                        ;
-+---------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 12.67) ; Number of LABs  (Total = 3) ;
-+---------------------------------------------+-----------------------------+
-; 1                                           ; 0                           ;
-; 2                                           ; 0                           ;
-; 3                                           ; 0                           ;
-; 4                                           ; 0                           ;
-; 5                                           ; 0                           ;
-; 6                                           ; 0                           ;
-; 7                                           ; 0                           ;
-; 8                                           ; 0                           ;
-; 9                                           ; 0                           ;
-; 10                                          ; 1                           ;
-; 11                                          ; 0                           ;
-; 12                                          ; 0                           ;
-; 13                                          ; 1                           ;
-; 14                                          ; 0                           ;
-; 15                                          ; 1                           ;
-; 16                                          ; 0                           ;
-+---------------------------------------------+-----------------------------+
++--------------------------------------------------------------------------+
+; LAB Logic Elements                                                       ;
++--------------------------------------------+-----------------------------+
+; Number of Logic Elements  (Average = 8.75) ; Number of LABs  (Total = 4) ;
++--------------------------------------------+-----------------------------+
+; 1                                          ; 1                           ;
+; 2                                          ; 0                           ;
+; 3                                          ; 0                           ;
+; 4                                          ; 0                           ;
+; 5                                          ; 0                           ;
+; 6                                          ; 0                           ;
+; 7                                          ; 0                           ;
+; 8                                          ; 1                           ;
+; 9                                          ; 0                           ;
+; 10                                         ; 0                           ;
+; 11                                         ; 0                           ;
+; 12                                         ; 1                           ;
+; 13                                         ; 0                           ;
+; 14                                         ; 1                           ;
+; 15                                         ; 0                           ;
+; 16                                         ; 0                           ;
++--------------------------------------------+-----------------------------+
 
 
 +------------------------------------------------------------------+
 ; LAB-wide Signals                                                 ;
 +------------------------------------+-----------------------------+
-; LAB-wide Signals  (Average = 2.33) ; Number of LABs  (Total = 3) ;
+; LAB-wide Signals  (Average = 2.25) ; Number of LABs  (Total = 4) ;
 +------------------------------------+-----------------------------+
-; 1 Async. clear                     ; 3                           ;
-; 1 Clock                            ; 2                           ;
+; 1 Async. clear                     ; 4                           ;
+; 1 Clock                            ; 4                           ;
 ; 1 Sync. load                       ; 1                           ;
-; 2 Clocks                           ; 1                           ;
 +------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Signals Sourced  (Average = 24.00) ; Number of LABs  (Total = 3) ;
+; Number of Signals Sourced  (Average = 17.25) ; Number of LABs  (Total = 4) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
-; 2                                            ; 0                           ;
+; 2                                            ; 1                           ;
 ; 3                                            ; 0                           ;
 ; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
@@ -1268,32 +1263,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 13                                           ; 0                           ;
 ; 14                                           ; 0                           ;
 ; 15                                           ; 0                           ;
-; 16                                           ; 0                           ;
-; 17                                           ; 1                           ;
+; 16                                           ; 1                           ;
+; 17                                           ; 0                           ;
 ; 18                                           ; 0                           ;
 ; 19                                           ; 0                           ;
 ; 20                                           ; 0                           ;
 ; 21                                           ; 0                           ;
 ; 22                                           ; 0                           ;
 ; 23                                           ; 0                           ;
-; 24                                           ; 0                           ;
+; 24                                           ; 1                           ;
 ; 25                                           ; 0                           ;
-; 26                                           ; 1                           ;
-; 27                                           ; 0                           ;
-; 28                                           ; 0                           ;
-; 29                                           ; 1                           ;
+; 26                                           ; 0                           ;
+; 27                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                       ;
 +-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 3.67) ; Number of LABs  (Total = 3) ;
+; Number of Signals Sourced Out  (Average = 2.75) ; Number of LABs  (Total = 4) ;
 +-------------------------------------------------+-----------------------------+
 ; 0                                               ; 1                           ;
-; 1                                               ; 0                           ;
-; 2                                               ; 0                           ;
-; 3                                               ; 1                           ;
+; 1                                               ; 1                           ;
+; 2                                               ; 1                           ;
+; 3                                               ; 0                           ;
 ; 4                                               ; 0                           ;
 ; 5                                               ; 0                           ;
 ; 6                                               ; 0                           ;
@@ -1305,13 +1298,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                       ;
 +---------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 3.67) ; Number of LABs  (Total = 3) ;
+; Number of Distinct Inputs  (Average = 3.25) ; Number of LABs  (Total = 4) ;
 +---------------------------------------------+-----------------------------+
 ; 0                                           ; 0                           ;
 ; 1                                           ; 0                           ;
 ; 2                                           ; 0                           ;
-; 3                                           ; 1                           ;
-; 4                                           ; 2                           ;
+; 3                                           ; 3                           ;
+; 4                                           ; 1                           ;
 +---------------------------------------------+-----------------------------+
 
 
@@ -1384,8 +1377,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; LEDR[5]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LEDR[6]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; LEDR[7]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; SW[1]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; SW[0]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; SW[1]              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; CLOCK_50           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
@@ -1474,22 +1467,22 @@ Warning (332174): Ignored filter at updown.sdc(18): DRAM_CLK could not be matche
 Warning (332049): Ignored create_clock at updown.sdc(18): Argument <targets> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/updown.sdc Line: 18
     Info (332050): create_clock -period "50.0 MHz" [get_ports DRAM_CLK] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/updown.sdc Line: 18
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
-Warning (332060): Node: clk_1Hz:CK|clk_out was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register Counter_updn_n_bit_modif:DUT|bout_sig[1] is being clocked by clk_1Hz:CK|clk_out
+Warning (332060): Node: clk_3Hz:CK|clk_out was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register Counter_updn_n_bit:DUT|bout_sig[0] is being clocked by clk_3Hz:CK|clk_out
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
 Info (332111): Found 1 clocks
     Info (332111):   Period   Clock Name
     Info (332111): ======== ============
     Info (332111):   20.000     CLOCK_50
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_modif_de10.vhdl Line: 21
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/Counter_updn_n_bit_de10.vhdl Line: 21
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node clk_1Hz:CK|clk_out File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_1Hz.vhdl Line: 52
-Info (176353): Automatically promoted node clk_1Hz:CK|clk_out  File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_1Hz.vhdl Line: 52
+        Info (176357): Destination node clk_3Hz:CK|clk_out File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_3Hz.vhdl Line: 51
+Info (176353): Automatically promoted node clk_3Hz:CK|clk_out  File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_3Hz.vhdl Line: 51
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node clk_1Hz:CK|clk_out~0 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_1Hz.vhdl Line: 52
+        Info (176357): Destination node clk_3Hz:CK|clk_out~0 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/clk_3Hz.vhdl Line: 51
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
@@ -1674,7 +1667,7 @@ Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X45_Y44 to location X55_Y54
@@ -1682,19 +1675,19 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.21 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 1/output_files/updown.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 186 warnings
-    Info: Peak virtual memory: 5651 megabytes
-    Info: Processing ended: Thu Sep 13 09:26:14 2018
+    Info: Peak virtual memory: 5649 megabytes
+    Info: Processing ended: Thu Sep 13 09:45:41 2018
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Total CPU time (on all processors): 00:00:12
 
 
 +----------------------------+
