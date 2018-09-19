@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "speed[0]",
+					"strict" : false
+				},
+				{
+					"name" : "speed[1]",
+					"strict" : false
+				},
+				{
+					"name" : "heat",
+					"strict" : false
+				},
+				{
+					"name" : "cool",
+					"strict" : false
+				},
+				{
+					"name" : "idle",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "atemp[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dtemp[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
