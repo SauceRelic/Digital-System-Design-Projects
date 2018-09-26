@@ -1,0 +1,6 @@
+
+State Machine - |mult_rep_add_nbit_fsmd|mult_rep_add_nbit_fsm:fsm|state
+Name state.Finish state.Run state.Idle 
+state.Idle 0 0 0 
+state.Run 0 1 1 
+state.Finish 1 0 1 

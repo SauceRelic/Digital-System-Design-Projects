@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result_latched[0]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[1]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[2]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[3]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[4]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[5]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[6]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[7]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[8]",
+					"strict" : false
+				},
+				{
+					"name" : "result_latched[9]",
+					"strict" : false
+				},
+				{
+					"name" : "complete",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "startb",
+					"strict" : false
+				},
+				{
+					"name" : "rstb",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

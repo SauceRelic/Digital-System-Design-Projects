@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/simulation/modelsim
+Emult_rep_add_nbit_datapath
+Z1 w1537925992
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_datapath.vhdl
+Z6 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_datapath.vhdl
+l0
+L25
+VkIdDF`40hd_TBCo<h8=mX1
+!s100 0gmfC:ei6`2kifGE[e4Id2
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1537928497
+!i10b 1
+Z9 !s108 1537928497.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_datapath.vhdl|
+Z11 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_datapath.vhdl|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 26 mult_rep_add_nbit_datapath 0 22 kIdDF`40hd_TBCo<h8=mX1
+l50
+L39
+VH3K_H_?Q@[^Z;iea1dCfa2
+!s100 _KYV@PUFac[^UJcj7zEM;2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emult_rep_add_nbit_fsm
+Z14 w1537924642
+R2
+R3
+R4
+R0
+Z15 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsm.vhdl
+Z16 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsm.vhdl
+l0
+L26
+V;lF9k?]NUzXCU0aSZ]nNZ0
+!s100 6dCao]7cEGYUh8YAh3j@51
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsm.vhdl|
+Z18 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsm.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 21 mult_rep_add_nbit_fsm 0 22 ;lF9k?]NUzXCU0aSZ]nNZ0
+l45
+L37
+VhG`O[A:2nD6]E8Ro;OldA2
+!s100 8a7XQXQUI]@B=1OnA_Y:@2
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Emult_rep_add_nbit_fsmd
+Z19 w1537926100
+R2
+R3
+R4
+R0
+Z20 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsmd.vhdl
+Z21 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsmd.vhdl
+l0
+L23
+VbHGbYm^dN=bRZ1JL]fH<:0
+!s100 ;>UOhiZdS3Sf9HDATVf5K0
+R7
+33
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsmd.vhdl|
+Z23 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_fsmd.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 22 mult_rep_add_nbit_fsmd 0 22 bHGbYm^dN=bRZ1JL]fH<:0
+l74
+L38
+VEm2dZ2>O2G]Ubg9iVTPJJ2
+!s100 f=Wh9PK`9TR<z@CXhK^V?3
+R7
+33
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Emult_rep_add_nbit_tb
+Z24 w1537928410
+R2
+R3
+R4
+R0
+Z25 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_tb.vhdl
+Z26 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_tb.vhdl
+l0
+L5
+V3a:FmbeaZ6QJQlB5Ea=gk3
+!s100 ce547:_]RD_;N_R4BPMnT2
+R7
+33
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_tb.vhdl|
+Z28 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 3/Question 1/mult_rep_add_nbit_tb.vhdl|
+!i113 1
+R12
+R13
+Atestbench
+R2
+R3
+R4
+DEx4 work 20 mult_rep_add_nbit_tb 0 22 3a:FmbeaZ6QJQlB5Ea=gk3
+l34
+L8
+VHGh>1nVLC=:@FQ?UaQPC;1
+!s100 hmljj9n[FMZ>gIH<e6`Dl2
+R7
+33
+!s110 1537928498
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13

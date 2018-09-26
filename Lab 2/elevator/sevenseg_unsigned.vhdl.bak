@@ -1,0 +1,59 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.math_real.all;
+
+entity sevenseg_unsigned is
+  generic(
+    N: natural := 8
+  );
+  port(
+    binary: in std_logic_vector(N-1 downto 0);
+    seg0: out std_logic_vector(7 downto 0);
+    seg1: out std_logic_vector(7 downto 0);
+    seg2: out std_logic_vector(7 downto 0);
+    seg3: out std_logic_vector(7 downto 0)
+  );
+end entity;
+
+architecture behavioral of sevenseg_unsigned is
+  signal decimal: unsigned(N-1 downto 0);
+  signal digit0: unsigned(3 downto 0);
+  signal digit1: unsigned(3 downto 0);
+  signal digit2: unsigned(3 downto 0);
+  signal digit3: unsigned(3 downto 0);
+  
+begin
+  decimal <= Unsigned(binary);
+  
+  process(decimal)
+  begin
+    if(decimal = 0) then
+      digit0 <= 0;
+      digit1 <= 15;
+      digit2 <= 15;
+      digit3 <= 15;
+    else
+      digit0 <= decimal mod 10;
+      if(decimal < 10) then
+        digit1 <= 15;
+        digit2 <= 15;
+        digit3 <= 15;
+      else
+        digit1 <= (decimal / 10) mod 10;
+        if(decimal < 100) then
+          digit2 <= 15;
+          digit3 <= 15;
+        else
+          digit2 <= (decimal / 100) mod 10;
+          if(decimal < 1000) then
+            digit3 <= 15;
+          else
+            digit3 <= (decimal / 1000);
+          end if;
+        end if;
+      end if;
+    end if;
+  end process;
+  
+  

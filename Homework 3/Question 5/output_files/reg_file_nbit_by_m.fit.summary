@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Sep 25 20:53:12 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : reg_file_nbit_by_m
+Top-level Entity Name : reg_file_nbit_by_m
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 2,441 / 49,760 ( 5 % )
+    Total combinational functions : 1,417 / 49,760 ( 3 % )
+    Dedicated logic registers : 2,048 / 49,760 ( 4 % )
+Total registers : 2048
+Total pins : 79 / 360 ( 22 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

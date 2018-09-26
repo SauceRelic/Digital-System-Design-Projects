@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fcurr_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "fcurr_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fcurr_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fcurr_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fcurr_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fcurr_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstb",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fdest_in[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

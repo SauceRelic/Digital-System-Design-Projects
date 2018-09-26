@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Sep 25 20:52:49 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : reg_file_nbit_by_m
+Top-level Entity Name : reg_file_nbit_by_m
+Family : MAX 10
+Total logic elements : 3,464
+    Total combinational functions : 1,416
+    Dedicated logic registers : 2,048
+Total registers : 2048
+Total pins : 79
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

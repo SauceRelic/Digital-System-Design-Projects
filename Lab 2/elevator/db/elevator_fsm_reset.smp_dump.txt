@@ -1,0 +1,7 @@
+
+State Machine - |elevator_fsm_reset|cstate
+Name cstate.DOWN cstate.UP cstate.IDLE cstate.RESET 
+cstate.RESET 0 0 0 0 
+cstate.IDLE 0 0 1 1 
+cstate.UP 0 1 0 1 
+cstate.DOWN 1 0 0 1 

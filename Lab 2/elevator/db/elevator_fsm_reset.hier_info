@@ -1,0 +1,29 @@
+|elevator_fsm_reset
+clk => fdest[0].CLK
+clk => fdest[1].CLK
+clk => fdest[2].CLK
+clk => fdest[3].CLK
+clk => fdest[4].CLK
+clk => fdest[5].CLK
+clk => fcurr[0].CLK
+clk => fcurr[1].CLK
+clk => fcurr[2].CLK
+clk => fcurr[3].CLK
+clk => fcurr[4].CLK
+clk => fcurr[5].CLK
+clk => cstate~1.DATAIN
+rstb => cstate~3.DATAIN
+fdest_in[0] => fdest.DATAA
+fdest_in[1] => fdest.DATAA
+fdest_in[2] => fdest.DATAA
+fdest_in[3] => fdest.DATAA
+fdest_in[4] => fdest.DATAA
+fdest_in[5] => fdest.DATAA
+fcurr_disp[0] << fcurr[0].DB_MAX_OUTPUT_PORT_TYPE
+fcurr_disp[1] << fcurr[1].DB_MAX_OUTPUT_PORT_TYPE
+fcurr_disp[2] << fcurr[2].DB_MAX_OUTPUT_PORT_TYPE
+fcurr_disp[3] << fcurr[3].DB_MAX_OUTPUT_PORT_TYPE
+fcurr_disp[4] << fcurr[4].DB_MAX_OUTPUT_PORT_TYPE
+fcurr_disp[5] << fcurr[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
