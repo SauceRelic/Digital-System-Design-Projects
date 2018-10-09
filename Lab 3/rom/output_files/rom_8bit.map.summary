@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Oct 08 19:16:32 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : rom_8bit
+Top-level Entity Name : rom_8bit_de10
+Family : MAX 10
+Total logic elements : 62
+    Total combinational functions : 62
+    Dedicated logic registers : 35
+Total registers : 35
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

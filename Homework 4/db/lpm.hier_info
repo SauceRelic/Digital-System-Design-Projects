@@ -1,0 +1,86 @@
+|lpm
+dataa[0] => lpm_mult:lpm_mult_component.dataa[0]
+dataa[1] => lpm_mult:lpm_mult_component.dataa[1]
+dataa[2] => lpm_mult:lpm_mult_component.dataa[2]
+dataa[3] => lpm_mult:lpm_mult_component.dataa[3]
+dataa[4] => lpm_mult:lpm_mult_component.dataa[4]
+datab[0] => lpm_mult:lpm_mult_component.datab[0]
+datab[1] => lpm_mult:lpm_mult_component.datab[1]
+datab[2] => lpm_mult:lpm_mult_component.datab[2]
+datab[3] => lpm_mult:lpm_mult_component.datab[3]
+datab[4] => lpm_mult:lpm_mult_component.datab[4]
+datab[5] => lpm_mult:lpm_mult_component.datab[5]
+datab[6] => lpm_mult:lpm_mult_component.datab[6]
+result[0] << lpm_mult:lpm_mult_component.result[0]
+result[1] << lpm_mult:lpm_mult_component.result[1]
+result[2] << lpm_mult:lpm_mult_component.result[2]
+result[3] << lpm_mult:lpm_mult_component.result[3]
+result[4] << lpm_mult:lpm_mult_component.result[4]
+result[5] << lpm_mult:lpm_mult_component.result[5]
+result[6] << lpm_mult:lpm_mult_component.result[6]
+result[7] << lpm_mult:lpm_mult_component.result[7]
+result[8] << lpm_mult:lpm_mult_component.result[8]
+result[9] << lpm_mult:lpm_mult_component.result[9]
+result[10] << lpm_mult:lpm_mult_component.result[10]
+result[11] << lpm_mult:lpm_mult_component.result[11]
+
+
+|lpm|lpm_mult:lpm_mult_component
+dataa[0] => mult_anm:auto_generated.dataa[0]
+dataa[1] => mult_anm:auto_generated.dataa[1]
+dataa[2] => mult_anm:auto_generated.dataa[2]
+dataa[3] => mult_anm:auto_generated.dataa[3]
+dataa[4] => mult_anm:auto_generated.dataa[4]
+datab[0] => mult_anm:auto_generated.datab[0]
+datab[1] => mult_anm:auto_generated.datab[1]
+datab[2] => mult_anm:auto_generated.datab[2]
+datab[3] => mult_anm:auto_generated.datab[3]
+datab[4] => mult_anm:auto_generated.datab[4]
+datab[5] => mult_anm:auto_generated.datab[5]
+datab[6] => mult_anm:auto_generated.datab[6]
+sum[0] => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mult_anm:auto_generated.result[0]
+result[1] <= mult_anm:auto_generated.result[1]
+result[2] <= mult_anm:auto_generated.result[2]
+result[3] <= mult_anm:auto_generated.result[3]
+result[4] <= mult_anm:auto_generated.result[4]
+result[5] <= mult_anm:auto_generated.result[5]
+result[6] <= mult_anm:auto_generated.result[6]
+result[7] <= mult_anm:auto_generated.result[7]
+result[8] <= mult_anm:auto_generated.result[8]
+result[9] <= mult_anm:auto_generated.result[9]
+result[10] <= mult_anm:auto_generated.result[10]
+result[11] <= mult_anm:auto_generated.result[11]
+
+
+|lpm|lpm_mult:lpm_mult_component|mult_anm:auto_generated
+dataa[0] => mac_mult1.DATAA
+dataa[1] => mac_mult1.DATAA1
+dataa[2] => mac_mult1.DATAA2
+dataa[3] => mac_mult1.DATAA3
+dataa[4] => mac_mult1.DATAA4
+datab[0] => mac_mult1.DATAB
+datab[1] => mac_mult1.DATAB1
+datab[2] => mac_mult1.DATAB2
+datab[3] => mac_mult1.DATAB3
+datab[4] => mac_mult1.DATAB4
+datab[5] => mac_mult1.DATAB5
+datab[6] => mac_mult1.DATAB6
+result[0] <= mac_out2.DATAOUT
+result[1] <= mac_out2.DATAOUT1
+result[2] <= mac_out2.DATAOUT2
+result[3] <= mac_out2.DATAOUT3
+result[4] <= mac_out2.DATAOUT4
+result[5] <= mac_out2.DATAOUT5
+result[6] <= mac_out2.DATAOUT6
+result[7] <= mac_out2.DATAOUT7
+result[8] <= mac_out2.DATAOUT8
+result[9] <= mac_out2.DATAOUT9
+result[10] <= mac_out2.DATAOUT10
+result[11] <= mac_out2.DATAOUT11
+
+

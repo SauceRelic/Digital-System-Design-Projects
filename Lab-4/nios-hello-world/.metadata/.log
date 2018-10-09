@@ -1,0 +1,19 @@
+!SESSION 2018-10-08 19:24:26.494 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-08 19:25:52.508
+!MESSAGE Indexed 'hello_world_sw_bsp' (83 sources, 62 headers) in 2.07 sec: 1,216 declarations; 2,657 references; 113 unresolved inclusions; 6 syntax errors; 195 unresolved names (4.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-08 19:25:55.051
+!MESSAGE Indexed 'hello_world_sw' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-08 19:31:09.426
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1539043329]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-10-08 19:31:12.448
+!MESSAGE Executing: [C:/intelfpga_lite/18.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1539043329 /cygdrive/c/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-hello-world/software/hello_world_sw/hello_world_sw.elf]

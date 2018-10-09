@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/simulation/modelsim
 Eelevator_fsm_reset
-Z1 w1537724676
+Z1 w1538096637
 Z2 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -18,14 +18,14 @@ R0
 Z6 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset.vhdl
 Z7 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset.vhdl
 l0
-L6
-VNN36EQ5_G9M27IS1ZBlC;3
-!s100 ;;79G:<d6?UnT0I>kARd60
+L12
+VYMIQUm?C8HQ7DRiSDT[MC0
+!s100 Pi6;3R>[AG6B5XzBA?<1Z0
 Z8 OV;C;10.5b;63
 33
-Z9 !s110 1537724706
+Z9 !s110 1538103050
 !i10b 1
-Z10 !s108 1537724706.000000
+Z10 !s108 1538103050.000000
 Z11 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset.vhdl|
 Z12 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset.vhdl|
 !i113 1
@@ -36,11 +36,11 @@ R2
 R3
 R4
 R5
-DEx4 work 18 elevator_fsm_reset 0 22 NN36EQ5_G9M27IS1ZBlC;3
-l27
-L19
-Vcom58N;;@?SWFjUGV5KPP3
-!s100 6b^JJ7QjPDBRQIFN>c]oN2
+DEx4 work 18 elevator_fsm_reset 0 22 YMIQUm?C8HQ7DRiSDT[MC0
+l36
+L25
+VhzH?4kIW0Ho<ooC<6D;AC0
+!s100 ee^^hLdnhl4NMoXBo^0^41
 R8
 33
 R9
@@ -52,7 +52,7 @@ R12
 R13
 R14
 Eelevator_fsm_reset_tb
-Z15 w1537723580
+Z15 w1538096998
 R3
 R4
 R5
@@ -60,9 +60,9 @@ R0
 Z16 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset_tb.vhdl
 Z17 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 2/elevator/elevator_fsm_reset_tb.vhdl
 l0
-L5
-VDVdnPC`;0JBOz9bcIEOc_0
-!s100 kRh`:ZP]5:0bbf3089;PZ0
+L11
+Vbd19Ek:TbTL_71=L43Hhd3
+!s100 RTJocMj^DYBW<FO_2`@:>3
 R8
 33
 R9
@@ -77,11 +77,11 @@ Atestbench
 R3
 R4
 R5
-DEx4 work 21 elevator_fsm_reset_tb 0 22 DVdnPC`;0JBOz9bcIEOc_0
-l32
-L12
-Vz:DVQ`0zKQ7NKm^DX8=8z1
-!s100 X6c25kF;Nb1lC0oE7QlYB2
+DEx4 work 21 elevator_fsm_reset_tb 0 22 bd19Ek:TbTL_71=L43Hhd3
+l43
+L18
+V0=kcFV1M`;M<`[cX>VamV1
+!s100 fU9d<FgH<j^m9Z2cdkeo72
 R8
 33
 R9

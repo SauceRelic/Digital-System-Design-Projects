@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity char_grid is
+  generic(
+    H_counter_size: natural := 10;
+    V_counter_size: natural := 10
+  );
+  port(
+    x: in std_logic_vector(H_counter_size-1 downto 0);
+    y: in std_logic_vector(V_counter_size-1 downto 0);
+    charspace_x: out std_logic_vector(H_counter_size-1 downto 0);
+    charspace_y: out std_logic_vector(V_counter_size-1 downto 0)
+  );
+end entity;
+
+architecture behavioral of char_grid is
+begin
+  
+  charspace_x <= unsigned(x) mod 9;
+  charspace_y <= unsigned(y) mod 10;
+  
+end architecture;

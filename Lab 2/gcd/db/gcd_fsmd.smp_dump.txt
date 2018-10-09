@@ -1,0 +1,6 @@
+
+State Machine - |gcd_fsmd_de10|gcd_fsmd:FSMD|gcd_fsm:FSM|cstate
+Name cstate.complete cstate.running cstate.idle 
+cstate.idle 0 0 0 
+cstate.running 0 1 1 
+cstate.complete 1 0 1 

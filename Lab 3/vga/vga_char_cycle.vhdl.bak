@@ -1,0 +1,88 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity vga_char_cycle is
+  generic(
+    H_counter_size: natural := 10;
+    V_counter_size: natural := 10
+  );
+  port(
+    clk: in std_logic;
+  );
+end entity;
+
+architecture combination of vga_char_cycle is
+  
+  
+  component vga_char_companion is
+    generic(
+      H_counter_size: natural := 10;
+      V_counter_size: natural := 10
+    );
+    port(
+      clk: in std_logic;
+    
+      x: in std_logic_vector(H_counter_size-1 downto 0);
+      y: in std_logic_vector(V_counter_size-1 downto 0);
+      char_in: in std_logic_vector(4 downto 0);
+    
+      pixel_write: out std_logic
+    );
+  end component;
+  
+  component char_grid_modifyable is
+    generic(
+      H_counter_size: natural := 10;
+      V_counter_size: natural := 10
+    );
+    port(
+      x: in std_logic_vector(H_counter_size-1 downto 0);
+      y: in std_logic_vector(V_counter_size-1 downto 0);
+      char_in: in std_logic_vector(4 downto 0);
+      char_out: out std_logic_vector(4 downto 0)
+    );
+  end component;
+  
+  component pll_25MHz is
+  	PORT
+    (
+      areset		: IN STD_LOGIC  := '0';
+      inclk0		: IN STD_LOGIC  := '0';
+      c0		: OUT STD_LOGIC ;
+      locked		: OUT STD_LOGIC 
+    );
+  end component;
+  
+  component vga_driver is
+    generic(
+      H_back_porch: 	natural:=48; 	
+      H_display: 		natural:=640; 
+      H_front_porch: natural:=16; 	
+      H_retrace: 		natural:=96; 	
+      V_back_porch: 	natural:=33; 	
+      V_display: 		natural:=480; 
+      V_front_porch: natural:=10; 
+      V_retrace: 		natural:=2;
+      Color_bits:		natural:=4;
+      H_sync_polarity: std_logic:= '0';
+      V_sync_polarity: std_logic:= '0';
+			H_counter_size: natural:= 10;
+      V_counter_size: natural:= 10
+    );
+	
+    port(
+      vid_clk: 		in 	std_logic;
+      rstb: 			in 	std_logic;
+			h_sync:			out 	std_logic;
+      v_sync:			out 	std_logic;
+ 			pixel_x: 		out 	std_logic_vector (H_counter_size -1 downto 0);
+      pixel_y: 		out 	std_logic_vector (V_counter_size - 1 downto 0);
+      vid_display:	out 	std_logic;
+			red_in:     	in 	std_logic_vector((Color_bits - 1) downto 0);
+      green_in:		in		std_logic_vector((Color_bits - 1) downto 0);
+      blue_in:			in		std_logic_vector((Color_bits - 1) downto 0);
+      red_out:			out 	std_logic_vector((Color_bits - 1) downto 0);
+      green_out:		out	std_logic_vector((Color_bits - 1) downto 0);
+      blue_out:		out	std_logic_vector((Color_bits - 1) downto 0)
+    );
+  end component;

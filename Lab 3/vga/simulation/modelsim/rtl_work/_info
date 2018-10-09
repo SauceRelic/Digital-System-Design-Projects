@@ -1,0 +1,471 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/simulation/modelsim
+Echar_grid_modifyable
+Z1 w1539032201
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl
+Z6 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl
+l0
+L5
+VDkA2Sm@i:8RMgege`?;Y@0
+!s100 >1JKz6:gi2a36L5P9SdcM1
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1539034853
+!i10b 1
+Z9 !s108 1539034853.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl|
+Z11 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 20 char_grid_modifyable 0 22 DkA2Sm@i:8RMgege`?;Y@0
+l25
+L18
+V_Sj5`<@j8UTYD>IA[W7:[0
+!s100 E8B_W;=9Dg=ehB0eF5H]J2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Echar_select_bit
+Z14 w1539032258
+R2
+R3
+R4
+R0
+Z15 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl
+Z16 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl
+l0
+L5
+V<NcH:z6zM3Pgz6XBGSHg:2
+!s100 hjX79Y?nCzIMzU;BZ=oj92
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl|
+Z18 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 15 char_select_bit 0 22 <NcH:z6zM3Pgz6XBGSHg:2
+l19
+L16
+V<ML`ehA9UNlDdU=4G`V8_3
+!s100 eN?>mnP9D9[chf9>1A?fk0
+R7
+33
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Echar_select_line
+Z19 w1539024173
+R2
+R3
+R4
+R0
+Z20 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl
+Z21 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl
+l0
+L5
+VNB_P[WkG:]5QlP1k[3Ni00
+!s100 ZUzKMLg]4`Jf0HHDh>H9O2
+R7
+33
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl|
+Z23 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 16 char_select_line 0 22 NB_P[WkG:]5QlP1k[3Ni00
+l21
+L16
+VK8XKi>OY?aYAB[mD`BmE?3
+!s100 mC5^b9>bnLSR_Jl7[2C^]1
+R7
+33
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Eclk_1hz
+Z24 w1538883821
+R2
+R3
+R4
+R0
+Z25 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl
+Z26 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl
+l0
+L34
+Vb9GY53M1LY9S02A0Zd19V2
+!s100 :ibHEeOm3GEH5zHj5J3A:0
+R7
+33
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl|
+Z28 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 clk_1hz 0 22 b9GY53M1LY9S02A0Zd19V2
+l48
+L42
+Vj12bgBSWPFjcoOgMKm31:3
+!s100 [MeXjEH=::Y>hP[Tnb2gQ1
+R7
+33
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Ecounter
+Z29 w1538886882
+R2
+R3
+R4
+R0
+Z30 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl
+Z31 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl
+l0
+L5
+VdR9>FE8KlHVXNECIG3^MN2
+!s100 [acKP7@:lKck]dN@f`:?m1
+R7
+33
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl|
+Z33 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 dR9>FE8KlHVXNECIG3^MN2
+l23
+L19
+VZT^<e6dX?[cP>M]Z3gCOY3
+!s100 4YzHBFcIVRo<;khCJE8>i0
+R7
+33
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Ecounter_1sec
+Z34 w1538884681
+R2
+R3
+R4
+R0
+Z35 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl
+Z36 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl
+l0
+L5
+VNQ[8AzO^]AV;G8<eBcSOh2
+!s100 EPW;M6`BbR=haVl:zV@af2
+R7
+33
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl|
+Z38 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl|
+!i113 1
+R12
+R13
+Acombination
+R2
+R3
+R4
+DEx4 work 12 counter_1sec 0 22 NQ[8AzO^]AV;G8<eBcSOh2
+l44
+L19
+Vmm1[ALghABJ7RB^@=5TPL0
+!s100 7A>kNoM0FYFX?<zD9k:0l3
+R7
+33
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Epll_25mhz
+Z39 w1538890369
+R3
+R4
+R0
+Z40 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd
+Z41 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd
+l0
+L42
+VAIeGzPd<=k5cG]NJYgflm0
+!s100 R[F0=7Pg_9[QHQ>aK3ORZ3
+R7
+33
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd|
+Z43 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 9 pll_25mhz 0 22 AIeGzPd<=k5cG]NJYgflm0
+l131
+L53
+VVP24XV5d1<ANH_m6f7F=H1
+!s100 HzLn`Q1e@DoRNL39=[lEZ1
+R7
+33
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13
+vpll_25MHz_altpll
+!s110 1539034852
+!i10b 1
+!s100 ^@njBVhAE=^FfneibjD]:3
+I<S=8AAlIKbY?Rf<e?Bd:;2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1539024266
+8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v
+FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v
+L0 30
+OV;L;10.5b;63
+r1
+!s85 0
+31
+Z44 !s108 1539034852.000000
+!s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db}
+tCvgOpt 0
+npll_25@m@hz_altpll
+Erom_8bit
+Z45 w1538889292
+Z46 DPx9 altera_mf 20 altera_mf_components 0 22 7RjT1Xb9^`L[coRHZN<9k2
+R3
+R4
+R0
+Z47 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd
+Z48 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd
+l0
+L42
+VJAU2Y?Zik0a_8jb1:5haF3
+!s100 EdNm;LYfP9nZ?FN:HH<^D1
+R7
+33
+R8
+!i10b 1
+R44
+Z49 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd|
+Z50 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd|
+!i113 1
+R12
+R13
+Asyn
+R46
+R3
+R4
+DEx4 work 8 rom_8bit 0 22 JAU2Y?Zik0a_8jb1:5haF3
+l56
+L52
+VD2I<8;oZJ[hS<T3Cz28H=0
+!s100 jXJTmjDOfl]_l<;PnzmJJ2
+R7
+33
+R8
+!i10b 1
+R44
+R49
+R50
+!i113 1
+R12
+R13
+Evga_char_companion
+Z51 w1539020176
+R3
+R4
+R0
+Z52 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl
+Z53 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl
+l0
+L4
+V10FVjdmS7aYcRdD=YD[@i2
+!s100 Nm8S<F8fIfgUQT24Je?j;2
+R7
+33
+R8
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl|
+Z55 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl|
+!i113 1
+R12
+R13
+Acombination
+R3
+R4
+DEx4 work 18 vga_char_companion 0 22 10FVjdmS7aYcRdD=YD[@i2
+l55
+L20
+V<U[Ef5dBCKnD^chZfmEo@1
+!s100 MbYkV`9mf4_<H?aH:NllT2
+R7
+33
+R8
+!i10b 1
+R9
+R54
+R55
+!i113 1
+R12
+R13
+Evga_char_cycle
+w1539032597
+R3
+R4
+R0
+8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl
+FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl
+l0
+L4
+V>gmQCZ2iX_Y6DG0bHD@dV3
+!s100 MlZQ9hh9JEo8K]PVN^DoN3
+R7
+33
+Z56 !s110 1539034854
+!i10b 1
+Z57 !s108 1539034854.000000
+Z58 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl|
+Z59 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl|
+!i113 1
+R12
+R13
+Acombination
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R12
+R13
+Evga_driver
+Z60 w1539024317
+Z61 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R2
+R3
+R4
+R0
+Z62 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl
+Z63 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl
+l0
+L52
+VB21DJLf59AAC_eX6e<oi30
+!s100 9zf0Ndb_XlEX4J;OFzX@>0
+R7
+33
+R8
+!i10b 1
+R9
+Z64 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl|
+Z65 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R61
+R2
+R3
+R4
+DEx4 work 10 vga_driver 0 22 B21DJLf59AAC_eX6e<oi30
+l119
+L98
+Vc2mgWINfW^VQD@6AF@?AU2
+!s100 zUgQlZi:DHl9I=9Kh7nh;1
+R7
+33
+R8
+!i10b 1
+R9
+R64
+R65
+!i113 1
+R12
+R13

@@ -1,0 +1,38 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity char_select_bit is
+  generic(
+    H_counter_size: natural := 10;
+    Color_bits: natural := 4
+  );
+  port(
+    char_line: in std_logic_vector(7 downto 0);
+    x: in std_logic_vector(H_counter_size-1 downto 0);
+    pixel: out std_logic_vector(Color_bits-1 downto 0)
+  );
+end entity;
+
+architecture behavioral of char_select_bit is
+  signal mod_x: unsigned(H_counter_size-1 downto 0);
+  
+begin
+  
+  mod_x <= unsigned(x) mod 9;
+  
+  case(mod_x)
+    when 1 => pixel <= (others => char_line(7));
+    when 2 => pixel <= (others => char_line(6));
+    when 3 => pixel <= (others => char_line(5));
+    when 4 => pixel <= (others => char_line(4));
+    when 5 => pixel <= (others => char_line(3));
+    when 6 => pixel <= (others => char_line(2));
+    when 7 => pixel <= (others => char_line(1));
+    when 8 => pixel <= (others => char_line(0));
+    
+    when others => pixel <= (others => '0');
+  end case;
+  
+end architecture;
+    

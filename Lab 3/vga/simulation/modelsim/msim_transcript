@@ -1,0 +1,159 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do vga_char_cycle_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab\ 3/vga/db {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:52 on Oct 08,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db" C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v 
+# -- Compiling module pll_25MHz_altpll
+# 
+# Top level modules:
+# 	pll_25MHz_altpll
+# End time: 16:40:52 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:52 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity rom_8bit
+# -- Compiling architecture SYN of rom_8bit
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity clk_1Hz
+# -- Compiling architecture behavioral of clk_1Hz
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter
+# -- Compiling architecture behavioral of counter
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter_1sec
+# -- Compiling architecture combination of counter_1sec
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity vga_driver
+# -- Compiling architecture behavioral of vga_driver
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pll_25MHz
+# -- Compiling architecture SYN of pll_25mhz
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity char_select_bit
+# -- Compiling architecture behavioral of char_select_bit
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity char_select_line
+# -- Compiling architecture behavioral of char_select_line
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity char_grid_modifyable
+# -- Compiling architecture behavioral of char_grid_modifyable
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:53 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vga_char_companion
+# -- Compiling architecture combination of vga_char_companion
+# End time: 16:40:53 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:40:54 on Oct 08,2018
+# vcom -reportprogress 300 -2008 -work work C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity vga_char_cycle
+# -- Compiling architecture combination of vga_char_cycle
+# ** Fatal: Unexpected signal: 11.
+# ** Error: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl(181): VHDL Compiler exiting
+# End time: 16:40:54 on Oct 08,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./vga_char_cycle_run_msim_rtl_vhdl.do line 19
+# C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work {C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl}"

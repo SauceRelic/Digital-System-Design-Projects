@@ -1,3 +1,9 @@
+-- elevator_fsm_reset_tb.vhdl
+-- finalized 9/27/2018
+-- Phillip Hiemenz
+--
+-- Testbench for elevator_fsm_reset.vhdl.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -10,12 +16,17 @@ entity elevator_fsm_reset_tb is
 end entity;
 
 architecture testbench of elevator_fsm_reset_tb is
+  
+-- signal declarations
   signal CLK: std_logic;
   signal RSTB: std_logic;
   signal FDEST_IN: std_logic_vector(fmax_bit - 1 downto 0);
   signal FCURR_DISP: std_logic_vector(fmax_bit - 1 downto 0);
+  
+-- clock period definition
   constant PER: time := 20 ns;
   
+-- test component
   component elevator_fsm_reset
     generic(
       FMAX: natural := 63;
@@ -43,6 +54,7 @@ begin
     fcurr_disp => FCURR_DISP
   );
   
+-- clock simulation
   clock: process
   begin
     CLK <= '0';
@@ -52,6 +64,7 @@ begin
     end loop;
   end process;
   
+-- reset simulation
   reset: process
   begin
     RSTB <= '0';
@@ -60,6 +73,7 @@ begin
     wait;
   end process;
   
+-- simulate moving to 2 different floors
   run: process
   begin
     FDEST_IN <= Std_logic_vector(to_unsigned(60,6));
@@ -69,6 +83,3 @@ begin
     wait;
   end process;
 end architecture;
-  
-  
-  

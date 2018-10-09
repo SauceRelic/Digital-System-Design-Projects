@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.math_real.all;
+
+entity bin_to_dec_2bit is
+  port(
+    bin_in: in std_logic_vector(6 downto 0);
+    dec_out_0: out std_logic_vector(3 downto 0);
+    dec_out_1: out std_logic_vector(3 downto 0)
+  );
+end entity;
+
+architecture behavioral of bin_to_dec_2bit is
+  signal bin: unsigned(6 downto 0);
+  signal dec0: unsigned(3 downto 0);
+  signal dec1: unsigned(3 downto 0);
+  
+begin
+  bin <= unsigned(bin_in);
+  dec_out_0 <= std_logic_vector(dec0);
+  dec_out_1 <= std_logic_vector(dec1):
+  
+  dec0 <= unsigned(bin mod 10,4);
+  dec1 <= unsigned(bin / 10,4);
+  
+end architecture;

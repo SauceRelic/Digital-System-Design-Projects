@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/simulation/modelsim
+Elpm
+Z1 w1538575567
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm.vhdl
+Z5 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm.vhdl
+l0
+L42
+VLOBR:eLCLWBHiikn[AQe70
+!s100 lNXcH>jHiS0PeYCnVP@ln1
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1538576562
+!i10b 1
+Z8 !s108 1538576562.000000
+Z9 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm.vhdl|
+Z10 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm.vhdl|
+!i113 1
+Z11 o-2008 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+DEx4 work 3 lpm 0 22 LOBR:eLCLWBHiikn[AQe70
+l74
+L52
+V<eiM>]:^H:?MW1?>zAL4<0
+!s100 e<[5TS_G<ab?he<zKT91_0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elpm_tb
+Z13 w1538576427
+Z14 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z16 8C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm_tb.vhdl
+Z17 FC:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm_tb.vhdl
+l0
+L6
+V3FSe?Nd>5ICBLTGG810EH0
+!s100 @E41O>gGi:jDDB;iBfI`93
+R6
+33
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-2008|-work|work|C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm_tb.vhdl|
+Z19 !s107 C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework 4/lpm_tb.vhdl|
+!i113 1
+R11
+R12
+Atestbench
+R14
+R15
+R2
+R3
+DEx4 work 6 lpm_tb 0 22 3FSe?Nd>5ICBLTGG810EH0
+l25
+L9
+V6JH``l=[U50>Y:zUD0GfV2
+!s100 J0R<fl:=ljb9RS`@EzfIW0
+R6
+33
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12

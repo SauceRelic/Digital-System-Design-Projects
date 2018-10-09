@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Sep 27 07:39:16 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : gcd_fsmd
+Top-level Entity Name : gcd_fsmd
+Family : MAX 10
+Total logic elements : 24
+    Total combinational functions : 24
+    Dedicated logic registers : 15
+Total registers : 15
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
