@@ -22,15 +22,15 @@ begin
   
   process(all)
   begin
-    case(mod_x) is
-      when to_unsigned(1,H_counter_size) => pixel <= char_line(7);
-      when to_unsigned(2,H_counter_size) => pixel <= char_line(6);
-      when to_unsigned(3,H_counter_size) => pixel <= char_line(5);
-      when to_unsigned(4,H_counter_size) => pixel <= char_line(4);
-      when to_unsigned(5,H_counter_size) => pixel <= char_line(3);
-      when to_unsigned(6,H_counter_size) => pixel <= char_line(2);
-      when to_unsigned(7,H_counter_size) => pixel <= char_line(1);
-      when to_unsigned(8,H_counter_size) => pixel <= char_line(0);
+    case(to_integer(mod_x)) is
+      when 1 => pixel <= char_line(0);
+      when 2 => pixel <= char_line(1);
+      when 3 => pixel <= char_line(2);
+      when 4 => pixel <= char_line(3);
+      when 5 => pixel <= char_line(4);
+      when 6 => pixel <= char_line(5);
+      when 7 => pixel <= char_line(6);
+      when 8 => pixel <= char_line(7);
     
       when others => pixel <= '0';
     end case;

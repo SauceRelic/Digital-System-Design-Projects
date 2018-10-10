@@ -1,0 +1,6 @@
+09:34:01 **** Clean-only build of configuration Nios II for project switch_count ****
+make clean 
+[switch_count clean complete]
+
+09:34:01 Build Finished (took 391ms)
+

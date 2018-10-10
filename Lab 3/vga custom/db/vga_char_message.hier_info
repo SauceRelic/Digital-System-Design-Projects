@@ -1,19 +1,19 @@
 |vga_char_message_de10
 CLOCK_50 => vga_char_message:IMPLEMENT.clk
-VGA_HS <= vga_char_message:IMPLEMENT.h_sync
-VGA_VS <= vga_char_message:IMPLEMENT.v_sync
-VGA_R[0] <= vga_char_message:IMPLEMENT.red[0]
-VGA_R[1] <= vga_char_message:IMPLEMENT.red[1]
-VGA_R[2] <= vga_char_message:IMPLEMENT.red[2]
-VGA_R[3] <= vga_char_message:IMPLEMENT.red[3]
-VGA_B[0] <= vga_char_message:IMPLEMENT.blue[0]
-VGA_B[1] <= vga_char_message:IMPLEMENT.blue[1]
-VGA_B[2] <= vga_char_message:IMPLEMENT.blue[2]
-VGA_B[3] <= vga_char_message:IMPLEMENT.blue[3]
-VGA_G[0] <= vga_char_message:IMPLEMENT.green[0]
-VGA_G[1] <= vga_char_message:IMPLEMENT.green[1]
-VGA_G[2] <= vga_char_message:IMPLEMENT.green[2]
-VGA_G[3] <= vga_char_message:IMPLEMENT.green[3]
+VGA_HS << vga_char_message:IMPLEMENT.h_sync
+VGA_VS << vga_char_message:IMPLEMENT.v_sync
+VGA_R[0] << vga_char_message:IMPLEMENT.red[0]
+VGA_R[1] << vga_char_message:IMPLEMENT.red[1]
+VGA_R[2] << vga_char_message:IMPLEMENT.red[2]
+VGA_R[3] << vga_char_message:IMPLEMENT.red[3]
+VGA_B[0] << vga_char_message:IMPLEMENT.blue[0]
+VGA_B[1] << vga_char_message:IMPLEMENT.blue[1]
+VGA_B[2] << vga_char_message:IMPLEMENT.blue[2]
+VGA_B[3] << vga_char_message:IMPLEMENT.blue[3]
+VGA_G[0] << vga_char_message:IMPLEMENT.green[0]
+VGA_G[1] << vga_char_message:IMPLEMENT.green[1]
+VGA_G[2] << vga_char_message:IMPLEMENT.green[2]
+VGA_G[3] << vga_char_message:IMPLEMENT.green[3]
 
 
 |vga_char_message_de10|vga_char_message:IMPLEMENT

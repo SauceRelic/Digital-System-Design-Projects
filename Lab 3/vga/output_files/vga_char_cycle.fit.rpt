@@ -1,5 +1,5 @@
 Fitter report for vga_char_cycle
-Mon Oct 08 15:25:54 2018
+Tue Oct 09 09:06:06 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -72,7 +72,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Oct 08 15:25:54 2018       ;
+; Fitter Status                      ; Successful - Tue Oct 09 09:06:06 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga_char_cycle                              ;
 ; Top-level Entity Name              ; vga_char_cycle_de10                         ;
@@ -163,8 +163,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   4.2%      ;
-;     Processors 3-4         ;   4.2%      ;
+;     Processor 2            ;   4.1%      ;
+;     Processors 3-4         ;   4.1%      ;
 +----------------------------+-------------+
 
 
@@ -431,7 +431,7 @@ The pin-out file can be found in C:/Users/hiemenzpe/Documents/GitHub/Digital-Sys
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )               ;
 ; Impedance control blocks                    ; 0 / 1 ( 0 % )               ;
 ; Average interconnect usage (total/H/V)      ; 0.4% / 0.4% / 0.4%          ;
-; Peak interconnect usage (total/H/V)         ; 4.4% / 4.6% / 4.5%          ;
+; Peak interconnect usage (total/H/V)         ; 4.2% / 4.5% / 4.2%          ;
 ; Maximum fan-out                             ; 36                          ;
 ; Highest non-global fan-out                  ; 36                          ;
 ; Total fan-out                               ; 1886                        ;
@@ -1309,15 +1309,15 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 753 / 148,641 ( < 1 % ) ;
-; C16 interconnects     ; 22 / 5,382 ( < 1 % )    ;
+; Block interconnects   ; 750 / 148,641 ( < 1 % ) ;
+; C16 interconnects     ; 19 / 5,382 ( < 1 % )    ;
 ; C4 interconnects      ; 362 / 106,704 ( < 1 % ) ;
-; Direct links          ; 234 / 148,641 ( < 1 % ) ;
+; Direct links          ; 241 / 148,641 ( < 1 % ) ;
 ; Global clocks         ; 3 / 20 ( 15 % )         ;
-; Local interconnects   ; 263 / 49,760 ( < 1 % )  ;
+; Local interconnects   ; 262 / 49,760 ( < 1 % )  ;
 ; NSLEEPs               ; 0 / 500 ( 0 % )         ;
-; R24 interconnects     ; 27 / 5,406 ( < 1 % )    ;
-; R4 interconnects      ; 462 / 147,764 ( < 1 % ) ;
+; R24 interconnects     ; 22 / 5,406 ( < 1 % )    ;
+; R4 interconnects      ; 460 / 147,764 ( < 1 % ) ;
 +-----------------------+-------------------------+
 
 
@@ -1594,31 +1594,31 @@ This will disable optimization of problematic paths and expose them for further 
 +-------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
 ; Source Register                                                               ; Destination Register                                                                                                                                                   ; Delay Added in ns ;
 +-------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[9]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 7.209             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[0]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.872             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[5]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.681             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[8]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[7]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[6]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[4]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[3]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[2]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[1]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 6.585             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[9]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.868             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[8]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.822             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[6]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.672             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[5]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.671             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[4]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.646             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[7]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 4.523             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[0]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 3.799             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[1]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 3.749             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[3]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 3.423             ;
-; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[2]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 3.303             ;
-; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[4] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 0.412             ;
-; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[2] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 0.347             ;
-; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[0] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a2~porta_address_reg0 ; 0.304             ;
-; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[3] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 0.269             ;
-; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[1] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a7~porta_address_reg0 ; 0.165             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[9]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 7.209             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[0]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.872             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[5]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.681             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[8]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[7]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[6]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[4]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[3]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[2]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|v_count[1]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 6.585             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[9]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.868             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[8]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.822             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[6]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.672             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[5]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.671             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[4]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.646             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[7]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 4.523             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[0]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 3.799             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[1]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 3.749             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[3]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 3.423             ;
+; vga_char_cycle:IMPLEMENT|vga_driver:VGA|h_count[2]                            ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 3.303             ;
+; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[4] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 0.412             ;
+; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[2] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 0.347             ;
+; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[0] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a5~porta_address_reg0 ; 0.304             ;
+; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[3] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 0.269             ;
+; vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER|count[1] ; vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated|ram_block1a0~porta_address_reg0 ; 0.165             ;
 +-------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
 Note: This table only shows the top 25 path(s) that have the largest delay added for hold.
 
@@ -1880,19 +1880,19 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.89 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.99 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/output_files/vga_char_cycle.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 181 warnings
-    Info: Peak virtual memory: 5657 megabytes
-    Info: Processing ended: Mon Oct 08 15:25:54 2018
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 5653 megabytes
+    Info: Processing ended: Tue Oct 09 09:06:06 2018
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +----------------------------+

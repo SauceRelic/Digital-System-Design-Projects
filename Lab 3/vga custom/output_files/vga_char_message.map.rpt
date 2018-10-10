@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga_char_message
-Mon Oct 08 15:23:40 2018
+Tue Oct 09 09:09:20 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Oct 08 15:23:40 2018       ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 09 09:09:20 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga_char_message                            ;
 ; Top-level Entity Name              ; vga_char_message_de10                       ;
@@ -211,7 +211,7 @@ refer to the applicable agreement for further details.
 ; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altram.inc                                              ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altdpram.inc                                            ;         ;
 ; db/altsyncram_0fq3.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/db/altsyncram_0fq3.tdf     ;         ;
-; Alpha1.mif                       ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/Alpha1.mif                 ;         ;
+; alpha1.mif                       ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/alpha1.mif                 ;         ;
 ; altpll.tdf                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altpll.tdf                                              ;         ;
 ; stratix_pll.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/stratix_pll.inc                                         ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/stratixii_pll.inc                                       ;         ;
@@ -1082,7 +1082,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 08 15:23:23 2018
+    Info: Processing started: Tue Oct 09 09:09:03 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_char_message -c vga_char_message
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1481,9 +1481,9 @@ Info (21057): Implemented 620 device resources after synthesis - the final resou
     Info (21064): Implemented 8 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 188 warnings
-    Info: Peak virtual memory: 4844 megabytes
-    Info: Processing ended: Mon Oct 08 15:23:40 2018
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Tue Oct 09 09:09:20 2018
     Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:32
+    Info: Total CPU time (on all processors): 00:00:31
 
 

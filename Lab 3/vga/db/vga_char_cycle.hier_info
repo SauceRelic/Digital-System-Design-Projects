@@ -1,4 +1,23 @@
-|vga_char_cycle
+|vga_char_cycle_de10
+CLOCK_50 => vga_char_cycle:IMPLEMENT.clk
+KEY[0] => vga_char_cycle:IMPLEMENT.pause
+VGA_HS << vga_char_cycle:IMPLEMENT.h_sync
+VGA_VS << vga_char_cycle:IMPLEMENT.v_sync
+VGA_R[0] << vga_char_cycle:IMPLEMENT.red[0]
+VGA_R[1] << vga_char_cycle:IMPLEMENT.red[1]
+VGA_R[2] << vga_char_cycle:IMPLEMENT.red[2]
+VGA_R[3] << vga_char_cycle:IMPLEMENT.red[3]
+VGA_B[0] << vga_char_cycle:IMPLEMENT.blue[0]
+VGA_B[1] << vga_char_cycle:IMPLEMENT.blue[1]
+VGA_B[2] << vga_char_cycle:IMPLEMENT.blue[2]
+VGA_B[3] << vga_char_cycle:IMPLEMENT.blue[3]
+VGA_G[0] << vga_char_cycle:IMPLEMENT.green[0]
+VGA_G[1] << vga_char_cycle:IMPLEMENT.green[1]
+VGA_G[2] << vga_char_cycle:IMPLEMENT.green[2]
+VGA_G[3] << vga_char_cycle:IMPLEMENT.green[3]
+
+
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT
 clk => counter_1sec:CHAR_COUNTER.clk
 clk => vga_char_companion:COMPANION.clk
 clk => pll_25MHz:PLL.inclk0
@@ -19,7 +38,7 @@ blue[2] <= vga_driver:VGA.blue_out[2]
 blue[3] <= vga_driver:VGA.blue_out[3]
 
 
-|vga_char_cycle|counter_1sec:CHAR_COUNTER
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER
 clk => clk_1Hz:CLOCK.clk_50MHz
 rstb => clk_1Hz:CLOCK.rstb
 rstb => counter:G_COUNTER.rstb
@@ -31,7 +50,7 @@ count_out[3] <= counter:G_COUNTER.count_out[3]
 count_out[4] <= counter:G_COUNTER.count_out[4]
 
 
-|vga_char_cycle|counter_1sec:CHAR_COUNTER|clk_1Hz:CLOCK
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|clk_1Hz:CLOCK
 clk_50MHz => clk_out.CLK
 clk_50MHz => cnt[0].CLK
 clk_50MHz => cnt[1].CLK
@@ -89,7 +108,7 @@ rstb => cnt[25].ACLR
 clk_1Hz <= clk_out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|counter_1sec:CHAR_COUNTER|counter:G_COUNTER
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER
 clk => count[0].CLK
 clk => count[1].CLK
 clk => count[2].CLK
@@ -112,7 +131,7 @@ count_out[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
 count_out[4] <= count[4].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|char_grid_modifyable:CUSTOM_GRID
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID
 x[0] => Div0.IN13
 x[1] => Div0.IN12
 x[2] => Div0.IN11
@@ -145,7 +164,7 @@ char_out[3] <= char_out_uns.DB_MAX_OUTPUT_PORT_TYPE
 char_out[4] <= char_out_uns.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|vga_char_companion:COMPANION
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION
 clk => rom_8bit:CHAR_ROM.clock
 x[0] => char_select_bit:BIT_SELECT.x[0]
 x[1] => char_select_bit:BIT_SELECT.x[1]
@@ -175,7 +194,7 @@ char_in[4] => char_select_line:LINE_SELECT.char[4]
 pixel_write <= char_select_bit:BIT_SELECT.pixel
 
 
-|vga_char_cycle|vga_char_companion:COMPANION|char_select_line:LINE_SELECT
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT
 char[0] => Add1.IN14
 char[1] => Add1.IN13
 char[2] => Add1.IN12
@@ -201,7 +220,7 @@ addr[6] <= addr_unsigned.DB_MAX_OUTPUT_PORT_TYPE
 addr[7] <= addr_unsigned.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM
 address[0] => altsyncram:altsyncram_component.address_a[0]
 address[1] => altsyncram:altsyncram_component.address_a[1]
 address[2] => altsyncram:altsyncram_component.address_a[2]
@@ -221,7 +240,7 @@ q[6] <= altsyncram:altsyncram_component.q_a[6]
 q[7] <= altsyncram:altsyncram_component.q_a[7]
 
 
-|vga_char_cycle|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component
 wren_a => ~NO_FANOUT~
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -270,7 +289,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|vga_char_cycle|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -353,7 +372,7 @@ q_a[6] <= ram_block1a6.PORTADATAOUT
 q_a[7] <= ram_block1a7.PORTADATAOUT
 
 
-|vga_char_cycle|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT
 char_line[0] => Selector0.IN17
 char_line[1] => Selector0.IN16
 char_line[2] => Selector0.IN15
@@ -375,14 +394,14 @@ x[9] => Mod0.IN10
 pixel <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|pll_25MHz:PLL
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|pll_25MHz:PLL
 areset => altpll:altpll_component.areset
 inclk0 => altpll:altpll_component.inclk[0]
 c0 <= altpll:altpll_component.clk[0]
 locked <= altpll:altpll_component.locked
 
 
-|vga_char_cycle|pll_25MHz:PLL|altpll:altpll_component
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component
 inclk[0] => pll_25MHz_altpll:auto_generated.inclk[0]
 inclk[1] => pll_25MHz_altpll:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -442,7 +461,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|vga_char_cycle|pll_25MHz:PLL|altpll:altpll_component|pll_25MHz_altpll:auto_generated
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component|pll_25MHz_altpll:auto_generated
 areset => pll_lock_sync.ACLR
 areset => pll1.ARESET
 clk[0] <= pll1.CLK
@@ -455,7 +474,7 @@ inclk[1] => pll1.CLK1
 locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|vga_char_cycle|vga_driver:VGA
+|vga_char_cycle_de10|vga_char_cycle:IMPLEMENT|vga_driver:VGA
 vid_clk => blue[0].CLK
 vid_clk => blue[1].CLK
 vid_clk => blue[2].CLK

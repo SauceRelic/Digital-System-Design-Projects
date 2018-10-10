@@ -49,7 +49,7 @@ begin
           when others => char_out_uns <= to_unsigned(26,5);
         end case;
         
-      when to_unsigned(1,V_counter_size) =>
+      when to_unsigned(5,V_counter_size) =>
         case(charspace_x) is
           when to_unsigned(0,H_counter_size) => char_out_uns <= to_unsigned(6,5);
           when to_unsigned(1,H_counter_size) => char_out_uns <= to_unsigned(4,5);

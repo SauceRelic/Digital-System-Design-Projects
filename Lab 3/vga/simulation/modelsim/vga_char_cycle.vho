@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
 
--- DATE "10/08/2018 15:26:05"
+-- DATE "10/09/2018 09:06:17"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -436,8 +436,8 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~128_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~128_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~83_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[54]~129_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ : std_logic;
@@ -488,10 +488,10 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~7\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~9\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~11\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~100_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[6]~10_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~101_combout\ : std_logic;
@@ -502,9 +502,9 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|Stag
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~6_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~103_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~140_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[2]~2_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[72]~105_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[72]~142_combout\ : std_logic;
@@ -512,8 +512,8 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[71]~107_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[71]~106_combout\ : std_logic;
 SIGNAL \IMPLEMENT|VGA|Add3~5_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~1\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[2]~3\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\ : std_logic;
@@ -521,14 +521,14 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[5]~9\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[6]~11\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[7]~13\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~15\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[7]~12_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[86]~143_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[6]~10_combout\ : std_logic;
@@ -539,9 +539,9 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|Stag
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~6_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~4_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~147_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[2]~2_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~114_combout\ : std_logic;
@@ -564,10 +564,10 @@ SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[97]~121_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|process_0~1_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\ : std_logic;
-SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[6]~10_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\ : std_logic;
+SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~14_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~16_combout\ : std_logic;
 SIGNAL \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~6_combout\ : std_logic;
@@ -1946,12 +1946,12 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1000100010101010",
+	lut_mask => "1000100011001100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add1~14_combout\,
-	datab => \IMPLEMENT|VGA|LessThan4~1_combout\,
+	dataa => \IMPLEMENT|VGA|LessThan4~1_combout\,
+	datab => \IMPLEMENT|VGA|Add1~14_combout\,
 	datad => \IMPLEMENT|VGA|LessThan5~2_combout\,
 	combout => \IMPLEMENT|VGA|v_count_next[7]~3_combout\);
 
@@ -2041,7 +2041,7 @@ PORT MAP (
 -- Location: LCCOMB_X47_Y24_N26
 \IMPLEMENT|VGA|LessThan4~0\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|VGA|LessThan4~0_combout\ = (!\IMPLEMENT|VGA|v_count\(5) & (\IMPLEMENT|VGA|v_display_on~0_combout\ & !\IMPLEMENT|VGA|v_count\(4)))
+-- \IMPLEMENT|VGA|LessThan4~0_combout\ = (!\IMPLEMENT|VGA|v_count\(4) & (\IMPLEMENT|VGA|v_display_on~0_combout\ & !\IMPLEMENT|VGA|v_count\(5)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2049,23 +2049,23 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|v_count\(5),
+	dataa => \IMPLEMENT|VGA|v_count\(4),
 	datac => \IMPLEMENT|VGA|v_display_on~0_combout\,
-	datad => \IMPLEMENT|VGA|v_count\(4),
+	datad => \IMPLEMENT|VGA|v_count\(5),
 	combout => \IMPLEMENT|VGA|LessThan4~0_combout\);
 
 -- Location: LCCOMB_X44_Y24_N30
 \IMPLEMENT|VGA|Add1~18\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|VGA|Add1~18_combout\ = \IMPLEMENT|VGA|Add1~17\ $ (\IMPLEMENT|VGA|v_count\(9))
+-- \IMPLEMENT|VGA|Add1~18_combout\ = \IMPLEMENT|VGA|v_count\(9) $ (\IMPLEMENT|VGA|Add1~17\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111111110000",
+	lut_mask => "0101101001011010",
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	datad => \IMPLEMENT|VGA|v_count\(9),
+	dataa => \IMPLEMENT|VGA|v_count\(9),
 	cin => \IMPLEMENT|VGA|Add1~17\,
 	combout => \IMPLEMENT|VGA|Add1~18_combout\);
 
@@ -2194,11 +2194,11 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1100110000001100",
+	lut_mask => "1010101000001010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \IMPLEMENT|VGA|Add1~2_combout\,
+	dataa => \IMPLEMENT|VGA|Add1~2_combout\,
 	datac => \IMPLEMENT|VGA|LessThan5~2_combout\,
 	datad => \IMPLEMENT|VGA|LessThan4~1_combout\,
 	combout => \IMPLEMENT|VGA|v_count_next[1]~0_combout\);
@@ -4059,7 +4059,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_5~14_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~145_combout\);
 
--- Location: LCCOMB_X43_Y22_N6
+-- Location: LCCOMB_X43_Y22_N18
 \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98_combout\ = (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_6~16_combout\ & 
@@ -4110,7 +4110,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_5~14_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[75]~146_combout\);
 
--- Location: LCCOMB_X43_Y22_N14
+-- Location: LCCOMB_X43_Y22_N6
 \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~100\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~100_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_6~8_combout\ & 
@@ -4537,19 +4537,19 @@ PORT MAP (
 \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[98]~107\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[98]~107_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\ & 
--- (((\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~145_combout\) # (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98_combout\)))) # 
+-- (((\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98_combout\) # (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~145_combout\)))) # 
 -- (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\ & (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~14_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110111011100010",
+	lut_mask => "1111110010101010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~14_combout\,
-	datab => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\,
+	datab => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98_combout\,
 	datac => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~145_combout\,
-	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[76]~98_combout\,
+	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[98]~107_combout\);
 
 -- Location: LCCOMB_X43_Y22_N28
@@ -5651,13 +5651,13 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111111110001000",
+	lut_mask => "1110111010101010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|v_count\(9),
-	datab => \IMPLEMENT|VGA|LessThan9~0_combout\,
-	datad => \IMPLEMENT|VGA|v_display_on~3_combout\,
+	dataa => \IMPLEMENT|VGA|v_display_on~3_combout\,
+	datab => \IMPLEMENT|VGA|v_count\(9),
+	datad => \IMPLEMENT|VGA|LessThan9~0_combout\,
 	combout => \IMPLEMENT|VGA|v_display_on~4_combout\);
 
 -- Location: LCCOMB_X47_Y24_N24
@@ -5871,18 +5871,18 @@ PORT MAP (
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[42]~152\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[42]~152_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & (\IMPLEMENT|VGA|Add3~23_combout\)) # (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\)))))
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & ((\IMPLEMENT|VGA|Add3~23_combout\))) # (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\ & 
+-- (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011100000000000",
+	lut_mask => "1110001000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~23_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
 	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout\,
+	datac => \IMPLEMENT|VGA|Add3~23_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[42]~152_combout\);
 
@@ -6099,22 +6099,22 @@ PORT MAP (
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~128\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~128_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[44]~150_combout\) # ((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\ & 
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\))))
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[44]~150_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011000010100000",
+	lut_mask => "1111000000100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[44]~150_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
 	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout\,
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[44]~150_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~128_combout\);
 
--- Location: LCCOMB_X45_Y26_N16
+-- Location: LCCOMB_X45_Y26_N20
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~83\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[55]~83_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout\ & 
@@ -6149,7 +6149,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[43]~151_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[54]~129_combout\);
 
--- Location: LCCOMB_X45_Y26_N20
+-- Location: LCCOMB_X45_Y26_N28
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[54]~84\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[54]~84_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout\ & 
@@ -6259,11 +6259,11 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111000011000000",
+	lut_mask => "1111000010100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \IMPLEMENT|VGA|Add3~11_combout\,
+	dataa => \IMPLEMENT|VGA|Add3~11_combout\,
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\,
 	datad => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[51]~87_combout\);
@@ -6285,7 +6285,7 @@ PORT MAP (
 	datad => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[50]~90_combout\);
 
--- Location: LCCOMB_X45_Y26_N28
+-- Location: LCCOMB_X45_Y26_N16
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[50]~89\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[50]~89_combout\ = (\IMPLEMENT|VGA|Add3~9_combout\ & (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout\ & 
@@ -6679,18 +6679,18 @@ PORT MAP (
 -- Location: LCCOMB_X45_Y26_N0
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[60]~98\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[60]~98_combout\ = (\IMPLEMENT|VGA|Add3~7_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[60]~98_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
+-- \IMPLEMENT|VGA|Add3~7_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0010000000100000",
+	lut_mask => "0011000000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~7_combout\,
 	datab => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	datad => \IMPLEMENT|VGA|Add3~7_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[60]~98_combout\);
 
 -- Location: LCCOMB_X45_Y27_N16
@@ -6865,22 +6865,22 @@ PORT MAP (
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~13\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\);
 
--- Location: LCCOMB_X44_Y27_N26
+-- Location: LCCOMB_X44_Y27_N22
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[66]~132_combout\) # ((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\ & 
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\))))
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[66]~132_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1101110000000000",
+	lut_mask => "1100111000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
 	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[66]~132_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~10_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\);
 
@@ -6951,7 +6951,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[75]~102_combout\);
 
--- Location: LCCOMB_X44_Y26_N24
+-- Location: LCCOMB_X44_Y26_N20
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[75]~139\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[75]~139_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
@@ -6986,7 +6986,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[4]~6_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~103_combout\);
 
--- Location: LCCOMB_X44_Y26_N6
+-- Location: LCCOMB_X44_Y26_N22
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~140\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~140_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\ & 
@@ -7004,6 +7004,22 @@ PORT MAP (
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[63]~135_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[74]~140_combout\);
+
+-- Location: LCCOMB_X46_Y27_N28
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\)
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0000000011001100",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\);
 
 -- Location: LCCOMB_X46_Y27_N22
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141\ : fiftyfivenm_lcell_comb
@@ -7023,22 +7039,6 @@ PORT MAP (
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\);
-
--- Location: LCCOMB_X46_Y27_N28
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\ & 
--- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000000011001100",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\);
 
 -- Location: LCCOMB_X46_Y27_N10
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[72]~105\ : fiftyfivenm_lcell_comb
@@ -7099,33 +7099,16 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0010001000000000",
+	lut_mask => "0000101000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|VGA|Add3~7_combout\,
-	datab => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[71]~106_combout\);
 
--- Location: LCCOMB_X43_Y27_N0
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\ = (\IMPLEMENT|VGA|Add3~5_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
--- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\))
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000000000001010",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~5_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\);
-
--- Location: LCCOMB_X49_Y27_N20
+-- Location: LCCOMB_X49_Y27_N0
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~5_combout\ & 
@@ -7142,13 +7125,30 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\);
 
+-- Location: LCCOMB_X43_Y27_N4
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~5_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\))
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0000000000110000",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	datab => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datac => \IMPLEMENT|VGA|Add3~5_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\);
+
 -- Location: LCCOMB_X44_Y27_N4
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~0\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~0_combout\ = (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\) # 
--- (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\)))
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~1\ = CARRY((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\) # 
--- (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~0_combout\ = (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\) # 
+-- (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\)))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~1\ = CARRY((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\) # 
+-- (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7156,8 +7156,8 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~108_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[70]~109_combout\,
 	datad => VCC,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~0_combout\,
 	cout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[1]~1\);
@@ -7212,11 +7212,11 @@ PORT MAP (
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~6\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~6_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\ & 
--- (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\)))) # 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\ & (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\ & 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\)))
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~7\ = CARRY((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\ & 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ & !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\)))
+-- (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\)))) # 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\ & (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ & 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\)))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~7\ = CARRY((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\ & 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\ & !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7224,8 +7224,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~104_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\,
 	datad => VCC,
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~5\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[4]~6_combout\,
@@ -7337,21 +7337,24 @@ PORT MAP (
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~15\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\);
 
--- Location: LCCOMB_X44_Y27_N22
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119\ : fiftyfivenm_lcell_comb
+-- Location: LCCOMB_X46_Y27_N24
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\ & 
--- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\)
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ & 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000011001100",
+	lut_mask => "1100111000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\);
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\);
 
 -- Location: LCCOMB_X46_Y27_N26
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149\ : fiftyfivenm_lcell_comb
@@ -7372,6 +7375,22 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149_combout\);
 
+-- Location: LCCOMB_X44_Y27_N26
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\ & 
+-- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\)
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0000000011001100",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[8]~14_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\);
+
 -- Location: LCCOMB_X44_Y27_N28
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120\ : fiftyfivenm_lcell_comb
 -- Equation(s):
@@ -7388,30 +7407,11 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\);
 
--- Location: LCCOMB_X46_Y27_N24
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\ & 
--- !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\))))
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "1100111000000000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[7]~12_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[77]~137_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\);
-
--- Location: LCCOMB_X46_Y27_N18
+-- Location: LCCOMB_X46_Y27_N2
 \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149_combout\) # 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\)))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149_combout\) # 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7419,10 +7419,10 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\,
 	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~149_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[87]~120_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\);
 
 -- Location: LCCOMB_X46_Y27_N14
@@ -7504,13 +7504,13 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111001000000000",
+	lut_mask => "1100111000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[3]~4_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[73]~141_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_7_result_int[8]~14_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\);
 
@@ -7530,7 +7530,23 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\);
 
--- Location: LCCOMB_X46_Y27_N2
+-- Location: LCCOMB_X47_Y27_N20
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ = (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ & 
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~4_combout\)
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0000111100000000",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~4_combout\,
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\);
+
+-- Location: LCCOMB_X46_Y27_N18
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ & 
@@ -7548,22 +7564,6 @@ PORT MAP (
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[72]~142_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\);
-
--- Location: LCCOMB_X47_Y27_N20
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ = (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\ & 
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~4_combout\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0000111100000000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[3]~4_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\);
 
 -- Location: LCCOMB_X49_Y27_N18
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~147\ : fiftyfivenm_lcell_comb
@@ -7584,7 +7584,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~147_combout\);
 
--- Location: LCCOMB_X49_Y27_N10
+-- Location: LCCOMB_X49_Y27_N14
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~114\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[82]~114_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[2]~2_combout\ & 
@@ -7633,7 +7633,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[81]~115_combout\);
 
--- Location: LCCOMB_X49_Y27_N14
+-- Location: LCCOMB_X49_Y27_N10
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~118\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~118_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~3_combout\ & 
@@ -7641,29 +7641,29 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000001000100",
+	lut_mask => "0000000000110000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
-	datab => \IMPLEMENT|VGA|Add3~3_combout\,
+	datab => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datac => \IMPLEMENT|VGA|Add3~3_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~118_combout\);
 
 -- Location: LCCOMB_X49_Y27_N28
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~117\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~117_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~3_combout\ & 
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~117_combout\ = (\IMPLEMENT|VGA|Add3~3_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0100010000000000",
+	lut_mask => "0000101000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
-	datab => \IMPLEMENT|VGA|Add3~3_combout\,
+	dataa => \IMPLEMENT|VGA|Add3~3_combout\,
+	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_8_result_int[9]~16_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[80]~117_combout\);
 
@@ -7737,11 +7737,11 @@ PORT MAP (
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~6\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~6_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\ & 
--- (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\)))) # 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\ & (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ & 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\)))
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~7\ = CARRY((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ & 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ & !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\)))
+-- (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\)))) # 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\ & (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ & 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\)))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~7\ = CARRY((!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\ & 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\ & !\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7749,8 +7749,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~113_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[83]~146_combout\,
 	datad => VCC,
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[3]~5\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[4]~6_combout\,
@@ -7852,11 +7852,11 @@ PORT MAP (
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~16\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~16_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\ & 
--- ((((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\))))) # 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\ & ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # (GND))))
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~17\ = CARRY((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\)))
+-- ((((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\))))) # 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\ & ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # (GND))))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~17\ = CARRY((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\) # 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\) # (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -7864,8 +7864,8 @@ GENERIC MAP (
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~119_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[88]~148_combout\,
 	datad => VCC,
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[8]~15\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[9]~16_combout\,
@@ -7912,33 +7912,14 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111110011110000",
+	lut_mask => "1111101011110000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\,
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~0_combout\,
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[97]~121_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~1_combout\);
-
--- Location: LCCOMB_X47_Y27_N28
-\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ & 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\)))) # 
--- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ & (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\))))
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "1111101011001100",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\,
-	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\);
 
 -- Location: LCCOMB_X47_Y27_N22
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122\ : fiftyfivenm_lcell_comb
@@ -7958,6 +7939,25 @@ PORT MAP (
 	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[85]~111_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[85]~144_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\);
+
+-- Location: LCCOMB_X47_Y27_N28
+\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ & 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\)))) # 
+-- (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ & (((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\))))
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "1111101011001100",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~145_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[5]~8_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[84]~112_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\,
+	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\);
 
 -- Location: LCCOMB_X47_Y27_N30
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[94]~125\ : fiftyfivenm_lcell_comb
@@ -7997,7 +7997,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~126_combout\);
 
--- Location: LCCOMB_X49_Y27_N0
+-- Location: LCCOMB_X49_Y27_N24
 \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~127\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~127_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\ & 
@@ -8052,7 +8052,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|add_sub_9_result_int[10]~18_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[93]~124_combout\);
 
--- Location: LCCOMB_X49_Y27_N24
+-- Location: LCCOMB_X49_Y27_N20
 \IMPLEMENT|COMPANION|LINE_SELECT|process_0~3\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|LINE_SELECT|process_0~3_combout\ = (!\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[94]~125_combout\ & (\IMPLEMENT|COMPANION|LINE_SELECT|process_0~2_combout\ $ 
@@ -8091,8 +8091,8 @@ PORT MAP (
 -- Location: LCCOMB_X47_Y27_N26
 \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|process_0~1_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\) # 
--- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|process_0~4_combout\)))
+-- \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|process_0~1_combout\) # ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\) # 
+-- ((\IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\) # (\IMPLEMENT|COMPANION|LINE_SELECT|process_0~4_combout\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -8101,8 +8101,8 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~1_combout\,
-	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\,
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~122_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[95]~123_combout\,
 	datad => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~4_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\);
 
@@ -8164,11 +8164,11 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0101101010101111",
+	lut_mask => "0011110011001111",
 	sum_lutc_input => "cin")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~127_combout\,
+	datab => \IMPLEMENT|COMPANION|LINE_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~127_combout\,
 	datad => VCC,
 	cin => \IMPLEMENT|COMPANION|LINE_SELECT|Add0~3\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Add0~4_combout\,
@@ -12077,34 +12077,34 @@ PORT MAP (
 -- Location: LCCOMB_X42_Y27_N0
 \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~62\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~62_combout\ = (\IMPLEMENT|VGA|Add3~5_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
+-- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~62_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~5_combout\ & 
 -- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_7_result_int[5]~8_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000101000000000",
+	lut_mask => "0101000000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~5_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datac => \IMPLEMENT|VGA|Add3~5_combout\,
 	datad => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_7_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~62_combout\);
 
 -- Location: LCCOMB_X42_Y27_N2
 \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~63\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~63_combout\ = (\IMPLEMENT|VGA|Add3~5_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
+-- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~63_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~5_combout\ & 
 -- !\IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_7_result_int[5]~8_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000000001010",
+	lut_mask => "0000000001010000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~5_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datac => \IMPLEMENT|VGA|Add3~5_combout\,
 	datad => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_7_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[35]~63_combout\);
 
@@ -12310,51 +12310,51 @@ PORT MAP (
 -- Location: LCCOMB_X42_Y27_N6
 \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[41]~66\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[41]~66_combout\ = (\IMPLEMENT|VGA|Add3~5_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
+-- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[41]~66_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~5_combout\ & 
 -- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000101000000000",
+	lut_mask => "0100010000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|VGA|Add3~5_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
+	datab => \IMPLEMENT|VGA|Add3~5_combout\,
 	datad => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[41]~66_combout\);
 
 -- Location: LCCOMB_X42_Y27_N14
 \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~68\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~68_combout\ = (\IMPLEMENT|VGA|Add3~3_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
+-- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~68_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~3_combout\ & 
 -- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000110000000000",
+	lut_mask => "0100010000000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
+	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datab => \IMPLEMENT|VGA|Add3~3_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datad => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~68_combout\);
 
 -- Location: LCCOMB_X42_Y27_N30
 \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~69\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~69_combout\ = (\IMPLEMENT|VGA|Add3~3_combout\ & (!\IMPLEMENT|VGA|v_display_on~4_combout\ & 
+-- \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~69_combout\ = (!\IMPLEMENT|VGA|v_display_on~4_combout\ & (\IMPLEMENT|VGA|Add3~3_combout\ & 
 -- !\IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000000001100",
+	lut_mask => "0000000001000100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
+	dataa => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datab => \IMPLEMENT|VGA|Add3~3_combout\,
-	datac => \IMPLEMENT|VGA|v_display_on~4_combout\,
 	datad => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|add_sub_8_result_int[5]~8_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|Div1|auto_generated|divider|divider|StageOut[40]~69_combout\);
 
@@ -12497,7 +12497,7 @@ PORT MAP (
 	datad => \IMPLEMENT|CUSTOM_GRID|Div0|auto_generated|divider|divider|op_4~10_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|char_out[0]~3_combout\);
 
--- Location: LCCOMB_X43_Y27_N4
+-- Location: LCCOMB_X43_Y27_N0
 \IMPLEMENT|CUSTOM_GRID|char_out[0]~4\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\ = (\IMPLEMENT|CUSTOM_GRID|Div0|auto_generated|divider|divider|op_8~10_combout\ & (\IMPLEMENT|CUSTOM_GRID|char_out[0]~2_combout\ & (\IMPLEMENT|CUSTOM_GRID|char_out[0]~3_combout\ & 
@@ -12609,12 +12609,12 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1010101011111111",
+	lut_mask => "1010111110101111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|CHAR_COUNTER|G_COUNTER|count\(1),
-	datad => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
+	datac => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|char_out[1]~6_combout\);
 
 -- Location: LCCOMB_X50_Y27_N6
@@ -12711,16 +12711,16 @@ PORT MAP (
 -- Location: LCCOMB_X50_Y27_N0
 \IMPLEMENT|COMPANION|LINE_SELECT|Add1~8\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|LINE_SELECT|Add1~8_combout\ = (\IMPLEMENT|COMPANION|LINE_SELECT|Add1~6_combout\ & !\IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\)
+-- \IMPLEMENT|COMPANION|LINE_SELECT|Add1~8_combout\ = (!\IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\ & \IMPLEMENT|COMPANION|LINE_SELECT|Add1~6_combout\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000011110000",
+	lut_mask => "0000111100000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \IMPLEMENT|COMPANION|LINE_SELECT|Add1~6_combout\,
-	datad => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\,
+	datac => \IMPLEMENT|COMPANION|LINE_SELECT|process_0~5_combout\,
+	datad => \IMPLEMENT|COMPANION|LINE_SELECT|Add1~6_combout\,
 	combout => \IMPLEMENT|COMPANION|LINE_SELECT|Add1~8_combout\);
 
 -- Location: LCCOMB_X50_Y27_N26
@@ -12749,12 +12749,12 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1101110111011101",
+	lut_mask => "1100111111001111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
 	datab => \IMPLEMENT|CHAR_COUNTER|G_COUNTER|count\(3),
+	datac => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|char_out[3]~8_combout\);
 
 -- Location: LCCOMB_X50_Y27_N10
@@ -12801,12 +12801,12 @@ PORT MAP (
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111000011111111",
+	lut_mask => "1111001111110011",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
+	datab => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
 	datac => \IMPLEMENT|CHAR_COUNTER|G_COUNTER|count\(4),
-	datad => \IMPLEMENT|CUSTOM_GRID|char_out[0]~4_combout\,
 	combout => \IMPLEMENT|CUSTOM_GRID|char_out[4]~9_combout\);
 
 -- Location: LCCOMB_X50_Y27_N28
@@ -12933,8 +12933,8 @@ PORT MAP (
 \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~11\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~11_combout\ = (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\ & ((\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
--- (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(5))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
--- ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(7))))))
+-- (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(2))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
+-- ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(0))))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -12943,8 +12943,8 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\,
-	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(5),
-	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(7),
+	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(2),
+	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(0),
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~11_combout\);
 
@@ -12952,18 +12952,18 @@ PORT MAP (
 \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~10\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~10_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\ & ((\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
--- ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(1)))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
--- (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(3)))))
+-- (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(6))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\ & 
+-- ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(4))))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1010000010001000",
+	lut_mask => "1000100010100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\,
-	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(3),
-	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(1),
+	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(6),
+	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(4),
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[91]~122_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~10_combout\);
 
@@ -13041,7 +13041,7 @@ PORT MAP (
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[97]~159_combout\);
 
--- Location: LCCOMB_X43_Y22_N18
+-- Location: LCCOMB_X43_Y22_N14
 \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~117\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[96]~117_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|op_7~18_combout\ & 
@@ -13170,8 +13170,8 @@ PORT MAP (
 -- Location: LCCOMB_X42_Y22_N12
 \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~6_combout\ & (((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(2)) # 
--- (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\)))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~6_combout\ & (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(4) & 
+-- \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~6_combout\ & (((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(5)) # 
+-- (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\)))) # (!\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~6_combout\ & (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(3) & 
 -- ((\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\))))
 
 -- pragma translate_off
@@ -13180,8 +13180,8 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	dataa => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(4),
-	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(2),
+	dataa => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(3),
+	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(5),
 	datac => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~6_combout\,
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\);
@@ -13190,8 +13190,8 @@ PORT MAP (
 \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~8\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~8_combout\ = (\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\ & (((\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\)))) # 
--- (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\ & ((\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ & ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(6)))) # 
--- (!\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ & (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(0)))))
+-- (!\IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\ & ((\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ & ((\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(1)))) # 
+-- (!\IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\ & (\IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(7)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -13200,8 +13200,8 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \IMPLEMENT|COMPANION|BIT_SELECT|Mod0|auto_generated|divider|divider|StageOut[92]~120_combout\,
-	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(0),
-	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(6),
+	datab => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(7),
+	datac => \IMPLEMENT|COMPANION|CHAR_ROM|altsyncram_component|auto_generated|q_a\(1),
 	datad => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~7_combout\,
 	combout => \IMPLEMENT|COMPANION|BIT_SELECT|Selector0~8_combout\);
 

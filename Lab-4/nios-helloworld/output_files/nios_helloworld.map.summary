@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Oct 09 10:08:07 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : nios_helloworld
+Top-level Entity Name : nios_helloworld_de10
+Family : MAX 10
+Total logic elements : 3,683
+    Total combinational functions : 2,986
+    Dedicated logic registers : 2,087
+Total registers : 2087
+Total pins : 1
+Total virtual pins : 0
+Total memory bits : 159,168
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
