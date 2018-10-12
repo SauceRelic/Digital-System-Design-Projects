@@ -1,3 +1,9 @@
+-- counter.vhdl
+-- finalized 10/11/2018
+-- Phillip Hiemenz
+--
+-- Generic counter.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -17,11 +23,13 @@ entity counter is
 end entity;
 
 architecture behavioral of counter is
+-- count signals
   signal count: unsigned(N-1 downto 0) := (others => '0');
   signal count_next: unsigned(N-1 downto 0);
   
 begin
   
+-- increment count
   process(clk,rstb)
   begin
     if(rstb = '0') then
@@ -31,6 +39,7 @@ begin
     end if;
   end process;
   
+-- next count w/ rollover
   process(all)
   begin
     if(count = max_num) then

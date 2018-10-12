@@ -1,3 +1,9 @@
+-- vga_char_cycle.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Cycles through every character in a ROM and displays it in a single position on a VGA monitor.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -19,7 +25,9 @@ entity vga_char_cycle is
   );
 end entity;
 
-architecture combination of vga_char_cycle is
+architecture behavioral of vga_char_cycle is
+
+-- intermediate signals
   signal input_char: std_logic_vector(4 downto 0);
   signal shared_x: std_logic_vector(H_counter_size-1 downto 0);
   signal shared_y: std_logic_vector(V_counter_size-1 downto 0);
@@ -28,6 +36,7 @@ architecture combination of vga_char_cycle is
   signal clk_25MHz: std_logic;
   signal pll_lock: std_logic;
   
+-- component declarations
   component vga_char_companion is
     generic(
       H_counter_size: natural := 10;
@@ -117,6 +126,7 @@ architecture combination of vga_char_cycle is
   
 begin
 
+-- mapping
   CHAR_COUNTER: counter_1sec
   generic map(
     max_num => 25,

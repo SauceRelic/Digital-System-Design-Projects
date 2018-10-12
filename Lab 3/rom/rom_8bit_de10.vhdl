@@ -1,3 +1,9 @@
+-- rom_8bit_de10.vhdl
+-- finalized 10/11/2018
+-- Phillip Hiemenz
+--
+-- Cycles through and displays all ROM data on the DE10 Lite.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -13,9 +19,12 @@ entity rom_8bit_de10 is
 end entity;
 
 architecture hardware of rom_8bit_de10 is
+  
+-- intermediate signals
   signal address: std_logic_vector(7 downto 0);
   signal data: std_logic_vector(7 downto 0);
   
+-- component declarations
   component counter_1sec is
     generic(
       max_num: natural := 255;
@@ -48,6 +57,7 @@ architecture hardware of rom_8bit_de10 is
   
 begin
 
+-- mapping
   COUNTER: counter_1sec
   generic map(
     max_num => 255,

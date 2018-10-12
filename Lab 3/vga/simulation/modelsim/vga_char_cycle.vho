@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
 
--- DATE "10/09/2018 09:06:17"
+-- DATE "10/11/2018 22:29:15"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -37,11 +37,11 @@ ENTITY 	vga_char_cycle_de10 IS
     PORT (
 	CLOCK_50 : IN std_logic;
 	KEY : IN std_logic_vector(0 DOWNTO 0);
-	VGA_HS : BUFFER std_logic;
-	VGA_VS : BUFFER std_logic;
-	VGA_R : BUFFER std_logic_vector(3 DOWNTO 0);
-	VGA_B : BUFFER std_logic_vector(3 DOWNTO 0);
-	VGA_G : BUFFER std_logic_vector(3 DOWNTO 0)
+	VGA_HS : OUT std_logic;
+	VGA_VS : OUT std_logic;
+	VGA_R : OUT std_logic_vector(3 DOWNTO 0);
+	VGA_B : OUT std_logic_vector(3 DOWNTO 0);
+	VGA_G : OUT std_logic_vector(3 DOWNTO 0)
 	);
 END vga_char_cycle_de10;
 

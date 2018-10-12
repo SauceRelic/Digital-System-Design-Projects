@@ -1,5 +1,5 @@
 Fitter report for rom_8bit
-Mon Oct 08 19:16:44 2018
+Thu Oct 11 22:09:28 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -70,7 +70,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Oct 08 19:16:44 2018       ;
+; Fitter Status                      ; Successful - Thu Oct 11 22:09:28 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; rom_8bit                                    ;
 ; Top-level Entity Name              ; rom_8bit_de10                               ;
@@ -161,8 +161,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.8%      ;
-;     Processors 3-4         ;   0.8%      ;
+;     Processor 2            ;   0.7%      ;
+;     Processors 3-4         ;   0.7%      ;
 +----------------------------+-------------+
 
 
@@ -1563,7 +1563,7 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 7
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 13
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
 Info (176353): Automatically promoted node counter_1sec:COUNTER|clk_1Hz:CLOCK|clk_out  File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/clk_1Hz.vhdl Line: 52
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
@@ -1732,7 +1732,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_R[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1745,19 +1745,19 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.63 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.55 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/output_files/rom_8bit.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 165 warnings
-    Info: Peak virtual memory: 5652 megabytes
-    Info: Processing ended: Mon Oct 08 19:16:45 2018
+    Info: Peak virtual memory: 5650 megabytes
+    Info: Processing ended: Thu Oct 11 22:09:29 2018
     Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Total CPU time (on all processors): 00:00:14
 
 
 +----------------------------+

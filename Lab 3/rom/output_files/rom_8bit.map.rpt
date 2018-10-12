@@ -1,5 +1,5 @@
 Analysis & Synthesis report for rom_8bit
-Mon Oct 08 19:16:32 2018
+Thu Oct 11 22:09:16 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Oct 08 19:16:32 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 11 22:09:16 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; rom_8bit                                    ;
 ; Top-level Entity Name              ; rom_8bit_de10                               ;
@@ -453,7 +453,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 08 19:16:19 2018
+    Info: Processing started: Thu Oct 11 22:09:02 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off rom_8bit -c rom_8bit
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -461,25 +461,25 @@ Info (12021): Found 2 design units, including 1 entities, in source file rom_8bi
     Info (12022): Found design unit 1: rom_8bit-SYN File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit.vhd Line: 52
     Info (12023): Found entity 1: rom_8bit File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit.vhd Line: 42
 Info (12021): Found 2 design units, including 1 entities, in source file counter.vhdl
-    Info (12022): Found design unit 1: counter-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter.vhdl Line: 19
-    Info (12023): Found entity 1: counter File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter.vhdl Line: 5
+    Info (12022): Found design unit 1: counter-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter.vhdl Line: 25
+    Info (12023): Found entity 1: counter File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file clk_1hz.vhdl
     Info (12022): Found design unit 1: clk_1Hz-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/clk_1Hz.vhdl Line: 42
     Info (12023): Found entity 1: clk_1Hz File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/clk_1Hz.vhdl Line: 34
 Info (12021): Found 2 design units, including 1 entities, in source file counter_1sec.vhdl
-    Info (12022): Found design unit 1: counter_1sec-combination File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 19
-    Info (12023): Found entity 1: counter_1sec File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 5
+    Info (12022): Found design unit 1: counter_1sec-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 25
+    Info (12023): Found entity 1: counter_1sec File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file sevenseg_hex1.vhdl
     Info (12022): Found design unit 1: sevenseg_hex1-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/sevenseg_hex1.vhdl Line: 19
     Info (12023): Found entity 1: sevenseg_hex1 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/sevenseg_hex1.vhdl Line: 12
 Info (12021): Found 2 design units, including 1 entities, in source file rom_8bit_de10.vhdl
-    Info (12022): Found design unit 1: rom_8bit_de10-hardware File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 15
-    Info (12023): Found entity 1: rom_8bit_de10 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 5
+    Info (12022): Found design unit 1: rom_8bit_de10-hardware File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 21
+    Info (12023): Found entity 1: rom_8bit_de10 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 11
 Info (12127): Elaborating entity "rom_8bit_de10" for the top level hierarchy
-Info (12128): Elaborating entity "counter_1sec" for hierarchy "counter_1sec:COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 51
-Info (12128): Elaborating entity "clk_1Hz" for hierarchy "counter_1sec:COUNTER|clk_1Hz:CLOCK" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 46
-Info (12128): Elaborating entity "counter" for hierarchy "counter_1sec:COUNTER|counter:G_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 53
-Info (12128): Elaborating entity "rom_8bit" for hierarchy "rom_8bit:ROM" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 63
+Info (12128): Elaborating entity "counter_1sec" for hierarchy "counter_1sec:COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 61
+Info (12128): Elaborating entity "clk_1Hz" for hierarchy "counter_1sec:COUNTER|clk_1Hz:CLOCK" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 56
+Info (12128): Elaborating entity "counter" for hierarchy "counter_1sec:COUNTER|counter:G_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/counter_1sec.vhdl Line: 63
+Info (12128): Elaborating entity "rom_8bit" for hierarchy "rom_8bit:ROM" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 73
 Info (12128): Elaborating entity "altsyncram" for hierarchy "rom_8bit:ROM|altsyncram:altsyncram_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit.vhd Line: 59
 Info (12130): Elaborated megafunction instantiation "rom_8bit:ROM|altsyncram:altsyncram_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit.vhd Line: 59
 Info (12133): Instantiated megafunction "rom_8bit:ROM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit.vhd Line: 59
@@ -536,10 +536,10 @@ Info (12133): Instantiated megafunction "rom_8bit:ROM|altsyncram:altsyncram_comp
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_0fq3.tdf
     Info (12023): Found entity 1: altsyncram_0fq3 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/db/altsyncram_0fq3.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_0fq3" for hierarchy "rom_8bit:ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated" File: c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "sevenseg_hex1" for hierarchy "sevenseg_hex1:SEG0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 70
+Info (12128): Elaborating entity "sevenseg_hex1" for hierarchy "sevenseg_hex1:SEG0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 80
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 10
-    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 11
+    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 16
+    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/rom/rom_8bit_de10.vhdl Line: 17
 Info (286030): Timing-Driven Synthesis is running
 Warning (20013): Ignored 185 assignments for entity "DE10_Lite" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ARDUINO_IO[0] -entity DE10_Lite was ignored
@@ -735,9 +735,9 @@ Info (21057): Implemented 96 device resources after synthesis - the final resour
     Info (21061): Implemented 62 logic cells
     Info (21064): Implemented 8 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 190 warnings
-    Info: Peak virtual memory: 4823 megabytes
-    Info: Processing ended: Mon Oct 08 19:16:32 2018
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Thu Oct 11 22:09:16 2018
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:30
 
 

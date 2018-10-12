@@ -1,3 +1,10 @@
+-- char_grid_modifyable.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Modifyable component that defines a grid to place characters on.
+--  Has an optional input for variable characters.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -16,9 +23,11 @@ entity char_grid_modifyable is
 end entity;
 
 architecture behavioral of char_grid_modifyable is
+-- convinience signals
   signal char_in_uns: unsigned(4 downto 0);
   signal char_out_uns: unsigned(4 downto 0);
 
+-- grid signals
   signal charspace_x: unsigned(H_counter_size-1 downto 0);
   signal charspace_y: unsigned(V_counter_size-1 downto 0);
 
@@ -26,9 +35,11 @@ begin
   
   char_in_uns <= unsigned(char_in);
   
+-- grid definition
   charspace_x <= unsigned(x) / 9;
   charspace_y <= unsigned(y) / 10;
   
+-- output selection
   process(all)
   begin
     case(charspace_y) is
@@ -73,6 +84,7 @@ begin
     end case;
   end process;
   
+-- output assignment
   char_out <= std_logic_vector(char_out_uns);
   
 end architecture;

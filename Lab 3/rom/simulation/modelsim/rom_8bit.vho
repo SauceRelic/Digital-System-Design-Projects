@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
 
--- DATE "10/08/2018 19:16:56"
+-- DATE "10/11/2018 22:09:40"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -91,9 +91,9 @@ ENTITY 	rom_8bit_de10 IS
     PORT (
 	CLOCK_50 : IN std_logic;
 	KEY : IN std_logic_vector(0 DOWNTO 0);
-	LEDR : BUFFER std_logic_vector(7 DOWNTO 0);
-	HEX0 : BUFFER std_logic_vector(7 DOWNTO 0);
-	HEX1 : BUFFER std_logic_vector(7 DOWNTO 0)
+	LEDR : OUT std_logic_vector(7 DOWNTO 0);
+	HEX0 : OUT std_logic_vector(7 DOWNTO 0);
+	HEX1 : OUT std_logic_vector(7 DOWNTO 0)
 	);
 END rom_8bit_de10;
 

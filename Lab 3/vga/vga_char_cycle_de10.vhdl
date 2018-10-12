@@ -1,3 +1,9 @@
+-- vga_char_cycle_de10.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Character cycler implemented on the DE10 Lite.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -19,6 +25,8 @@ entity vga_char_cycle_de10 is
 end entity;
 
 architecture hardware of vga_char_cycle_de10 is
+  
+-- component declarations
   component vga_char_cycle is
     generic(
       H_counter_size: natural := 10;
@@ -39,6 +47,7 @@ architecture hardware of vga_char_cycle_de10 is
   
 begin
 
+-- mapping
   IMPLEMENT: vga_char_cycle
   port map(
     clk => CLOCK_50,

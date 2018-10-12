@@ -1,3 +1,9 @@
+-- counter_1sec.vhdl
+-- finalized 10/11/2018
+-- Phillip Hiemenz
+--
+-- Generic counter that counts every second for a 50MHz clock.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -16,9 +22,12 @@ entity counter_1sec is
   );
 end entity;
 
-architecture combination of counter_1sec is
+architecture behavioral of counter_1sec is
+
+-- intermediate signals
   signal clk_internal: std_logic;
   
+-- component declarations
   component clk_1Hz is
     port (
       clk_50MHz : in std_logic;
@@ -43,6 +52,7 @@ architecture combination of counter_1sec is
   
 begin
 
+-- mapping
   CLOCK: clk_1Hz
   port map(
     clk_50MHz => clk,

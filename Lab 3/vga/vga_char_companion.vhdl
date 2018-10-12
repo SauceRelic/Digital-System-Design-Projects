@@ -1,3 +1,10 @@
+-- vga_char_companion.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Receives a character for a given space and sends the needed pixels to draw
+--  it to a VGA driver.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -17,10 +24,13 @@ entity vga_char_companion is
   );
 end entity;
 
-architecture combination of vga_char_companion is
+architecture behavioral of vga_char_companion is
+  
+-- intermediate signals
   signal rom_addr: std_logic_vector(7 downto 0);
   signal rom_data: std_logic_vector(7 downto 0);
   
+-- component declarations
   component char_select_line is
     generic(
       V_counter_size: natural := 10
@@ -54,6 +64,7 @@ architecture combination of vga_char_companion is
   
 begin
 
+-- mapping
   LINE_SELECT: char_select_line
   generic map(
     V_counter_size => V_counter_size

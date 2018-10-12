@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vga_char_cycle
-Tue Oct 09 09:05:52 2018
+Thu Oct 11 22:28:50 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 09 09:05:52 2018       ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 11 22:28:50 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga_char_cycle                              ;
 ; Top-level Entity Name              ; vga_char_cycle_de10                         ;
@@ -186,8 +186,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -398,9 +397,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+----------------------------------------------+
 ; Parameter Name ; Value ; Type                                         ;
 +----------------+-------+----------------------------------------------+
-; H_counter_size ; 10    ; Signed Integer                               ;
-; V_counter_size ; 10    ; Signed Integer                               ;
-; Color_bits     ; 4     ; Signed Integer                               ;
+; h_counter_size ; 10    ; Signed Integer                               ;
+; v_counter_size ; 10    ; Signed Integer                               ;
+; color_bits     ; 4     ; Signed Integer                               ;
 +----------------+-------+----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1127,7 +1126,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Oct 09 09:05:35 2018
+    Info: Processing started: Thu Oct 11 22:28:32 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_char_cycle -c vga_char_cycle
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1138,11 +1137,11 @@ Info (12021): Found 2 design units, including 1 entities, in source file clk_1hz
     Info (12022): Found design unit 1: clk_1Hz-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl Line: 42
     Info (12023): Found entity 1: clk_1Hz File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/clk_1Hz.vhdl Line: 34
 Info (12021): Found 2 design units, including 1 entities, in source file counter.vhdl
-    Info (12022): Found design unit 1: counter-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl Line: 19
-    Info (12023): Found entity 1: counter File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl Line: 5
+    Info (12022): Found design unit 1: counter-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl Line: 25
+    Info (12023): Found entity 1: counter File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file counter_1sec.vhdl
-    Info (12022): Found design unit 1: counter_1sec-combination File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 19
-    Info (12023): Found entity 1: counter_1sec File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 5
+    Info (12022): Found design unit 1: counter_1sec-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 25
+    Info (12023): Found entity 1: counter_1sec File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file vga_driver.vhdl
     Info (12022): Found design unit 1: vga_driver-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl Line: 98
     Info (12023): Found entity 1: vga_driver File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_driver.vhdl Line: 52
@@ -1150,32 +1149,32 @@ Info (12021): Found 2 design units, including 1 entities, in source file pll_25m
     Info (12022): Found design unit 1: pll_25mhz-SYN File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd Line: 53
     Info (12023): Found entity 1: pll_25MHz File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd Line: 42
 Info (12021): Found 2 design units, including 1 entities, in source file char_select_bit.vhdl
-    Info (12022): Found design unit 1: char_select_bit-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 16
-    Info (12023): Found entity 1: char_select_bit File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 5
+    Info (12022): Found design unit 1: char_select_bit-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 22
+    Info (12023): Found entity 1: char_select_bit File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file char_select_line.vhdl
-    Info (12022): Found design unit 1: char_select_line-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 16
-    Info (12023): Found entity 1: char_select_line File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 5
+    Info (12022): Found design unit 1: char_select_line-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 22
+    Info (12023): Found entity 1: char_select_line File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file char_grid_modifyable.vhdl
-    Info (12022): Found design unit 1: char_grid_modifyable-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 18
-    Info (12023): Found entity 1: char_grid_modifyable File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 5
+    Info (12022): Found design unit 1: char_grid_modifyable-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 25
+    Info (12023): Found entity 1: char_grid_modifyable File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 12
 Info (12021): Found 2 design units, including 1 entities, in source file vga_char_companion.vhdl
-    Info (12022): Found design unit 1: vga_char_companion-combination File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 20
-    Info (12023): Found entity 1: vga_char_companion File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 4
+    Info (12022): Found design unit 1: vga_char_companion-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 27
+    Info (12023): Found entity 1: vga_char_companion File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file vga_char_cycle.vhdl
-    Info (12022): Found design unit 1: vga_char_cycle-combination File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 22
-    Info (12023): Found entity 1: vga_char_cycle File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 4
+    Info (12022): Found design unit 1: vga_char_cycle-behavioral File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 28
+    Info (12023): Found entity 1: vga_char_cycle File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 10
 Info (12021): Found 2 design units, including 1 entities, in source file vga_char_cycle_de10.vhdl
-    Info (12022): Found design unit 1: vga_char_cycle_de10-hardware File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 21
-    Info (12023): Found entity 1: vga_char_cycle_de10 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 4
+    Info (12022): Found design unit 1: vga_char_cycle_de10-hardware File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 27
+    Info (12023): Found entity 1: vga_char_cycle_de10 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 10
 Info (12127): Elaborating entity "vga_char_cycle_de10" for the top level hierarchy
-Info (12128): Elaborating entity "vga_char_cycle" for hierarchy "vga_char_cycle:IMPLEMENT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 42
-Info (12128): Elaborating entity "counter_1sec" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 120
-Info (12128): Elaborating entity "clk_1Hz" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|clk_1Hz:CLOCK" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 46
-Info (12128): Elaborating entity "counter" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 53
-Info (12128): Elaborating entity "char_grid_modifyable" for hierarchy "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 132
-Info (12128): Elaborating entity "vga_char_companion" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 144
-Info (12128): Elaborating entity "char_select_line" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 57
-Info (12128): Elaborating entity "rom_8bit" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 67
+Info (12128): Elaborating entity "vga_char_cycle" for hierarchy "vga_char_cycle:IMPLEMENT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle_de10.vhdl Line: 51
+Info (12128): Elaborating entity "counter_1sec" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 130
+Info (12128): Elaborating entity "clk_1Hz" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|clk_1Hz:CLOCK" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 56
+Info (12128): Elaborating entity "counter" for hierarchy "vga_char_cycle:IMPLEMENT|counter_1sec:CHAR_COUNTER|counter:G_COUNTER" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/counter_1sec.vhdl Line: 63
+Info (12128): Elaborating entity "char_grid_modifyable" for hierarchy "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 142
+Info (12128): Elaborating entity "vga_char_companion" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 154
+Info (12128): Elaborating entity "char_select_line" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 68
+Info (12128): Elaborating entity "rom_8bit" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 78
 Info (12128): Elaborating entity "altsyncram" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd Line: 59
 Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd Line: 59
 Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/rom_8bit.vhd Line: 59
@@ -1232,8 +1231,8 @@ Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_compa
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_0fq3.tdf
     Info (12023): Found entity 1: altsyncram_0fq3 File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/altsyncram_0fq3.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_0fq3" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|rom_8bit:CHAR_ROM|altsyncram:altsyncram_component|altsyncram_0fq3:auto_generated" File: c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "char_select_bit" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 74
-Info (12128): Elaborating entity "pll_25MHz" for hierarchy "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 157
+Info (12128): Elaborating entity "char_select_bit" for hierarchy "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_companion.vhdl Line: 85
+Info (12128): Elaborating entity "pll_25MHz" for hierarchy "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 167
 Info (12128): Elaborating entity "altpll" for hierarchy "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd Line: 140
 Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd Line: 140
 Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/pll_25MHz.vhd Line: 140
@@ -1295,14 +1294,14 @@ Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll_25mhz_altpll.v
     Info (12023): Found entity 1: pll_25MHz_altpll File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/pll_25mhz_altpll.v Line: 30
 Info (12128): Elaborating entity "pll_25MHz_altpll" for hierarchy "vga_char_cycle:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component|pll_25MHz_altpll:auto_generated" File: c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altpll.tdf Line: 897
-Info (12128): Elaborating entity "vga_driver" for hierarchy "vga_char_cycle:IMPLEMENT|vga_driver:VGA" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 165
+Info (12128): Elaborating entity "vga_driver" for hierarchy "vga_char_cycle:IMPLEMENT|vga_driver:VGA" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/vga_char_cycle.vhdl Line: 175
 Info (278001): Inferred 4 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 21
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 24
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|Div0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 29
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|Div1" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 30
-Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|lpm_divide:Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 21
-Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|lpm_divide:Mod0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 21
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 29
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 32
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|Div0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 39
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|Div1" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 40
+Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|lpm_divide:Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 29
+Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_bit:BIT_SELECT|lpm_divide:Mod0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_bit.vhdl Line: 29
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1317,14 +1316,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/add_
     Info (12023): Found entity 1: add_sub_t3c File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/add_sub_t3c.tdf Line: 22
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_u3c.tdf
     Info (12023): Found entity 1: add_sub_u3c File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/add_sub_u3c.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|lpm_divide:Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 24
-Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|lpm_divide:Mod0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 24
+Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|lpm_divide:Mod0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 32
+Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|vga_char_companion:COMPANION|char_select_line:LINE_SELECT|lpm_divide:Mod0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_select_line.vhdl Line: 32
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 29
-Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 29
+Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div0" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 39
+Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div0" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 39
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1335,8 +1334,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_klh File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/sign_div_unsign_klh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_ihe.tdf
     Info (12023): Found entity 1: alt_u_div_ihe File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/db/alt_u_div_ihe.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div1" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 30
-Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div1" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 30
+Info (12130): Elaborated megafunction instantiation "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div1" File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 40
+Info (12133): Instantiated megafunction "vga_char_cycle:IMPLEMENT|char_grid_modifyable:CUSTOM_GRID|lpm_divide:Div1" with the following parameter: File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga/char_grid_modifyable.vhdl Line: 40
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1537,9 +1536,9 @@ Info (21057): Implemented 640 device resources after synthesis - the final resou
     Info (21064): Implemented 8 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 187 warnings
-    Info: Peak virtual memory: 4842 megabytes
-    Info: Processing ended: Tue Oct 09 09:05:52 2018
-    Info: Elapsed time: 00:00:17
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Thu Oct 11 22:28:50 2018
+    Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:33
 
 

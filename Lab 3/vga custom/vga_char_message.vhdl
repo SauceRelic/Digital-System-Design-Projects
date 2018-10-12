@@ -1,3 +1,9 @@
+-- vga_char_message.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Outputs a static message on a VGA display.
+
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -18,7 +24,9 @@ entity vga_char_message is
   );
 end entity;
 
-architecture combination of vga_char_message is
+architecture behavioral of vga_char_message is
+  
+-- intermediate signals
   signal input_char: std_logic_vector(4 downto 0);
   signal shared_x: std_logic_vector(H_counter_size-1 downto 0);
   signal shared_y: std_logic_vector(V_counter_size-1 downto 0);
@@ -26,7 +34,8 @@ architecture combination of vga_char_message is
   signal pixel_write: std_logic;
   signal clk_25MHz: std_logic;
   signal pll_lock: std_logic;
-  
+ 
+-- component declarations 
   component vga_char_companion is
     generic(
       H_counter_size: natural := 10;
@@ -102,6 +111,7 @@ architecture combination of vga_char_message is
   
 begin
   
+-- mapping
   CUSTOM_GRID: char_grid_modifyable
   generic map(
     H_counter_size => H_counter_size,

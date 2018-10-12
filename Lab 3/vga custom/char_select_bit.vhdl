@@ -1,3 +1,9 @@
+-- char_select_bit.vhdl
+-- Phillip Hiemenz
+-- finalized 10/11/2018
+--
+-- Selects a single bit of data from a character ROM to send to a VGA driver.
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -14,12 +20,15 @@ entity char_select_bit is
 end entity;
 
 architecture behavioral of char_select_bit is
+  
+-- pixel in charspace
   signal mod_x: unsigned(H_counter_size-1 downto 0);
   
 begin
   
   mod_x <= unsigned(x) mod 9;
   
+-- bit select
   process(all)
   begin
     case(to_integer(mod_x)) is

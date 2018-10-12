@@ -1,5 +1,5 @@
 Fitter report for vga_char_message
-Tue Oct 09 09:09:33 2018
+Thu Oct 11 22:40:33 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -72,7 +72,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Oct 09 09:09:33 2018       ;
+; Fitter Status                      ; Successful - Thu Oct 11 22:40:33 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; vga_char_message                            ;
 ; Top-level Entity Name              ; vga_char_message_de10                       ;
@@ -163,7 +163,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   4.3%      ;
+;     Processor 2            ;   4.4%      ;
 ;     Processors 3-4         ;   4.3%      ;
 +----------------------------+-------------+
 
@@ -1637,7 +1637,7 @@ Info (332096): The command derive_clocks did not find any clocks to derive.  No 
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/vga_char_message_de10.vhdl Line: 10
+Info (176353): Automatically promoted node CLOCK_50~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed)) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/vga_char_message_de10.vhdl Line: 16
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G19
 Info (176353): Automatically promoted node vga_char_message:IMPLEMENT|pll_25MHz:PLL|altpll:altpll_component|pll_25MHz_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/db/pll_25mhz_altpll.v Line: 92
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
@@ -1827,8 +1827,8 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 3% of the available device resources in the region that extends from location X22_Y22 to location X32_Y32
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.85 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.82 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1838,9 +1838,9 @@ Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments 
 Info (144001): Generated suppressed messages file C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab 3/vga custom/output_files/vga_char_message.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 176 warnings
     Info: Peak virtual memory: 5653 megabytes
-    Info: Processing ended: Tue Oct 09 09:09:34 2018
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Processing ended: Thu Oct 11 22:40:34 2018
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +----------------------------+
