@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Oct 25 09:04:56 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : nios_video
+Top-level Entity Name : nios_video_de10
+Family : MAX 10
+Total logic elements : 6,068
+    Total combinational functions : 4,835
+    Dedicated logic registers : 3,511
+Total registers : 3511
+Total pins : 60
+Total virtual pins : 0
+Total memory bits : 875,456
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

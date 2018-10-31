@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Oct 31 07:47:09 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : accelerometer
+Top-level Entity Name : accelerometer_de10
+Family : MAX 10
+Total logic elements : 4,145
+    Total combinational functions : 3,405
+    Dedicated logic registers : 2,331
+Total registers : 2331
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 863,744
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,16 @@
+/*
+ * count.c
+ *
+ *  Created on: Oct 18, 2018
+ *      Author: hiemenzpe
+ */
+
+#include "altera_avalon_pio_regs.h"
+#include "system.h"
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+	printf("entered main");
+	alt_u8
+}

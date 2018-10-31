@@ -1,0 +1,6 @@
+21:29:33 **** Clean-only build of configuration Nios II for project interrupt ****
+make clean 
+[interrupt clean complete]
+
+21:29:34 Build Finished (took 653ms)
+

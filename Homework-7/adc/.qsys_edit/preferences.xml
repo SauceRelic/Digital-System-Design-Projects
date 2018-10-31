@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="111" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Project,Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Library/Basic Functions/Bridges and Adaptors,Library,Library/Basic Functions" />
+ <window width="974" height="1047" x="-7" y="0" />
+ <generation
+   synthesis="VHDL"
+   path="C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework-7/_PROJECT_NAME_" />
+ <hdlexample language="VHDL" />
+</preferences>

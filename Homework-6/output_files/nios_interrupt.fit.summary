@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Oct 23 21:21:13 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : nios_interrupt
+Top-level Entity Name : nios_interrupt_de10
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 3,574 / 49,760 ( 7 % )
+    Total combinational functions : 3,162 / 49,760 ( 6 % )
+    Dedicated logic registers : 2,146 / 49,760 ( 4 % )
+Total registers : 2146
+Total pins : 9 / 360 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 463,552 / 1,677,312 ( 28 % )
+Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

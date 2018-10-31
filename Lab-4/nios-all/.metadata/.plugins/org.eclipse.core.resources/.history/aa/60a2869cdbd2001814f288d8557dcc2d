@@ -1,0 +1,29 @@
+/*
+ * count.c
+ *
+ *  Created on: Oct 18, 2018
+ *      Author: hiemenzpe
+ */
+
+#include "altera_avalon_pio_regs.h"
+#include "system.h"
+#include <stdio.h>
+#include <math.h>
+#include <unistd.h>
+
+alt_u8 hex_bit(int num, int bit);
+
+int main() {
+	printf("entered main");
+	int count = 0;
+
+	while(1){
+		IOWR(COUNT_PIO_BASE, 0, (hex_bit(count, )))
+	};
+
+	return 0;
+}
+
+alt_u8 hex_bit(int num, int bit){
+	int
+}

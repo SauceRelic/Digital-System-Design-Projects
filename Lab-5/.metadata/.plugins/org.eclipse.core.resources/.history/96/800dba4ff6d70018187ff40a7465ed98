@@ -1,0 +1,23 @@
+/*
+ * box.c
+ *
+ *  Created on: Oct 24, 2018
+ *      Author: hiemenzpe
+ */
+
+#include "system.h"
+#include "altera_up_avalon_video_pixel_buffer_dma.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+int main(){
+	printf("entered main");
+
+	// create pointer to pixel buffer
+	alt_up_pixel_buffer_dma_dev* pixel_buffer;
+	pixel_buffer = alt_up_pixel_buffer_dma_open_dev("/dev/video_pixel_buffer_dma_0");
+
+
+}

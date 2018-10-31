@@ -1,0 +1,91 @@
+/*
+ * etch.c
+ *
+ *  Created on: Oct 24, 2018
+ *      Author: hiemenzpe
+ */
+
+#include "system.h"
+#include "altera_up_avalon_video_pixel_buffer_dma.h"
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "alt_types.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+
+int main(){
+	printf("entered main");
+
+	// create pointer to pixel buffer
+	alt_up_pixel_buffer_dma_dev* pixel_buffer;
+	pixel_buffer = alt_up_pixel_buffer_dma_open_dev("/dev/video_pixel_buffer_dma_0");
+
+	alt_up_pixel_buffer_dma_clear_screen(pixel_buffer,0);
+	usleep(200000);
+
+	// coordinate variables
+	int x = 160;
+	int y = 120;
+
+	// use flag to avoid constant redrawing
+	int draw_flag = 0;
+
+	while(1){
+		// KEY0 controls x coord
+		if((IORD(PIO_PUSH_BASE,0) & 0b01) == 0){
+			// if SW0 is on, move right, else move left
+			if((IORD(PIO_SW_BASE,0) & 0b0001) > 0)
+				x++;
+			else
+				x--;
+
+			// set boundaries
+			if(x >= 320)
+				x = 319;
+			if(x <= 0)
+				x = 0;
+
+			// set draw flag
+			draw_flag = 1;
+		}
+
+		// KEY1 controls y coord
+		if((IORD(PIO_PUSH_BASE,0) & 0b10) == 0){
+			// if SW1 is on, move up, else move down
+			if((IORD(PIO_SW_BASE,0) & 0b0010) > 0)
+				y++;
+			else
+				y--;
+
+			// set boundaries
+			if(y >= 240)
+				y = 239;
+			if(y <= 0)
+				y = 0;
+
+			// set draw flag
+			draw_flag = 1;
+		}
+
+		// draw a single white pixel at (x,y)
+		if(draw_flag == 1){
+			// draw the pixel
+			alt_up_pixel_buffer_dma_draw_box(pixel_buffer,x,y,x,y,0xFFFF,0);
+
+			// continuous draw @ 5 px/s
+			usleep(200000);
+
+			// reset draw flag
+			draw_flag = 0;
+		}
+
+		// SW2 clears screen, no position reset like an actual etch-a-sketch
+		if((IORD(PIO_SW_BASE,0) & 0b0100) > 0){
+			alt_up_pixel_buffer_dma_clear_screen(pixel_buffer,0);
+			usleep(200000);
+		}
+	}
+}

@@ -1,0 +1,42 @@
+07:48:38 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+07:48:46 **** Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+07:48:49 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+08:50:03 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+08:52:02 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+08:53:50 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]
+08:55:48 **** Incremental Build of configuration Nios II for project accel ****
+make all 
+Info: Building ../accel_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_bsp/
+[BSP build complete]
+[accel build complete]

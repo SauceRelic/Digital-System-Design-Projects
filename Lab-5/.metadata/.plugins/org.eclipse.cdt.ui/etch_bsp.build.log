@@ -1,0 +1,6 @@
+20:20:04 **** Clean-only build of configuration Nios II for project etch_bsp ****
+make clean 
+[BSP clean complete]
+
+20:20:05 Build Finished (took 659ms)
+

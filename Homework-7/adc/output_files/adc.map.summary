@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Oct 30 22:21:58 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : adc
+Top-level Entity Name : adc_de10
+Family : MAX 10
+Total logic elements : 4,982
+    Total combinational functions : 3,674
+    Dedicated logic registers : 3,297
+Total registers : 3297
+Total pins : 1
+Total virtual pins : 0
+Total memory bits : 271,200
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 1

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Oct 23 21:20:46 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : nios_interrupt
+Top-level Entity Name : nios_interrupt_de10
+Family : MAX 10
+Total logic elements : 3,923
+    Total combinational functions : 3,156
+    Dedicated logic registers : 2,220
+Total registers : 2220
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 463,552
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,5 +1,5 @@
 Flow report for nios_all
-Tue Oct 09 10:18:04 2018
+Thu Oct 18 09:32:33 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 09 10:17:57 2018       ;
+; Flow Status                        ; Successful - Thu Oct 18 09:32:23 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; nios_all                                    ;
 ; Top-level Entity Name              ; nios_all_de10                               ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 3,532 / 49,760 ( 7 % )                      ;
-;     Total combinational functions  ; 3,128 / 49,760 ( 6 % )                      ;
-;     Dedicated logic registers      ; 2,136 / 49,760 ( 4 % )                      ;
-; Total registers                    ; 2136                                        ;
+; Total logic elements               ; 3,637 / 49,760 ( 7 % )                      ;
+;     Total combinational functions  ; 3,225 / 49,760 ( 6 % )                      ;
+;     Dedicated logic registers      ; 2,172 / 49,760 ( 4 % )                      ;
+; Total registers                    ; 2172                                        ;
 ; Total pins                         ; 41 / 360 ( 11 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 223,360 / 1,677,312 ( 13 % )                ;
+; Total memory bits                  ; 1,112,320 / 1,677,312 ( 66 % )              ;
 ; Embedded Multiplier 9-bit elements ; 6 / 288 ( 2 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
@@ -66,41 +66,48 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/09/2018 10:16:34 ;
+; Start date & time ; 10/18/2018 09:30:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; nios_all            ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                               ;
-+-------------------------------------+-------------------------------------------------------------+---------------+---------------+------------+
-; Assignment Name                     ; Value                                                       ; Default Value ; Entity Name   ; Section Id ;
-+-------------------------------------+-------------------------------------------------------------+---------------+---------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543711158273.153909819319008                               ; --            ; --            ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                                          ; --            ; --            ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                                           ; --            ; --            ; --         ;
-; MISC_FILE                           ; synthesis/../nios_3pio.cmp                                  ; --            ; --            ; --         ;
-; MISC_FILE                           ; synthesis/../nios_3pio.qsys                                 ; --            ; --            ; --         ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                           ; --            ; --            ; --         ;
-; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                           ; --            ; --            ; --         ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                  ; --            ; --            ; --         ;
-; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                  ; --            ; --            ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                      ; --            ; nios_all_de10 ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                      ; --            ; nios_all_de10 ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                      ; --            ; nios_all_de10 ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                         ; --            ; --            ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                       ; --            ; --            ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                ; --            ; --            ; --         ;
-; SLD_FILE                            ; synthesis/nios_3pio.regmap                                  ; --            ; --            ; --         ;
-; SLD_FILE                            ; synthesis/nios_3pio.debuginfo                               ; --            ; --            ; --         ;
-; SLD_INFO                            ; QSYS_NAME nios_3pio HAS_SOPCINFO 1 GENERATION_ID 1539098147 ; --            ; nios_3pio     ; --         ;
-; SOPCINFO_FILE                       ; synthesis/../nios_3pio.sopcinfo                             ; --            ; --            ; --         ;
-; SYNTHESIS_ONLY_QIP                  ; On                                                          ; --            ; --            ; --         ;
-; TOP_LEVEL_ENTITY                    ; nios_all_de10                                               ; nios_all      ; --            ; --         ;
-; VHDL_INPUT_VERSION                  ; VHDL_2008                                                   ; VHDL_1993     ; --            ; --         ;
-; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                                                         ; --            ; --            ; --         ;
-+-------------------------------------+-------------------------------------------------------------+---------------+---------------+------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++-------------------------------------+--------------------------------------------------------------+---------------+---------------+------------+
+; Assignment Name                     ; Value                                                        ; Default Value ; Entity Name   ; Section Id ;
++-------------------------------------+--------------------------------------------------------------+---------------+---------------+------------+
+; COMPILER_SIGNATURE_ID               ; 2543711158273.153987304004120                                ; --            ; --            ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                           ; --            ; --            ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                            ; --            ; --            ; --         ;
+; MISC_FILE                           ; synthesis/../nios_basic.cmp                                  ; --            ; --            ; --         ;
+; MISC_FILE                           ; synthesis/../nios_basic.qsys                                 ; --            ; --            ; --         ;
+; MISC_FILE                           ; synthesis/../nios_3pio.cmp                                   ; --            ; --            ; --         ;
+; MISC_FILE                           ; synthesis/../nios_3pio.qsys                                  ; --            ; --            ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                            ; --            ; --            ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                            ; --            ; --            ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                   ; --            ; --            ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                   ; --            ; --            ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                       ; --            ; nios_all_de10 ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                       ; --            ; nios_all_de10 ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                       ; --            ; nios_all_de10 ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                          ; --            ; --            ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                        ; --            ; --            ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                 ; --            ; --            ; --         ;
+; SLD_FILE                            ; synthesis/nios_basic.regmap                                  ; --            ; --            ; --         ;
+; SLD_FILE                            ; synthesis/nios_basic.debuginfo                               ; --            ; --            ; --         ;
+; SLD_FILE                            ; synthesis/nios_3pio.regmap                                   ; --            ; --            ; --         ;
+; SLD_FILE                            ; synthesis/nios_3pio.debuginfo                                ; --            ; --            ; --         ;
+; SLD_INFO                            ; QSYS_NAME nios_3pio HAS_SOPCINFO 1 GENERATION_ID 1539863639  ; --            ; nios_3pio     ; --         ;
+; SLD_INFO                            ; QSYS_NAME nios_basic HAS_SOPCINFO 1 GENERATION_ID 1539866300 ; --            ; nios_basic    ; --         ;
+; SOPCINFO_FILE                       ; synthesis/../nios_basic.sopcinfo                             ; --            ; --            ; --         ;
+; SOPCINFO_FILE                       ; synthesis/../nios_3pio.sopcinfo                              ; --            ; --            ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                           ; --            ; --            ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                           ; --            ; --            ; --         ;
+; TOP_LEVEL_ENTITY                    ; nios_all_de10                                                ; nios_all      ; --            ; --         ;
+; VHDL_INPUT_VERSION                  ; VHDL_2008                                                    ; VHDL_1993     ; --            ; --         ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                                                          ; --            ; --            ; --         ;
++-------------------------------------+--------------------------------------------------------------+---------------+---------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -108,11 +115,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:50     ; 1.0                     ; 4970 MB             ; 00:01:19                           ;
-; Fitter               ; 00:00:23     ; 1.4                     ; 5728 MB             ; 00:00:39                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4718 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.9                     ; 4890 MB             ; 00:00:11                           ;
-; Total                ; 00:01:22     ; --                      ; --                  ; 00:02:12                           ;
+; Analysis & Synthesis ; 00:01:03     ; 1.0                     ; 4995 MB             ; 00:01:29                           ;
+; Fitter               ; 00:00:26     ; 1.4                     ; 5728 MB             ; 00:00:41                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4728 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:08     ; 2.0                     ; 4901 MB             ; 00:00:13                           ;
+; Total                ; 00:01:41     ; --                      ; --                  ; 00:02:27                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

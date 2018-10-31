@@ -1,0 +1,63 @@
+/*
+ * box.c
+ *
+ *  Created on: Oct 24, 2018
+ *      Author: hiemenzpe
+ */
+
+#include "system.h"
+#include "altera_up_avalon_video_pixel_buffer_dma.h"
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "alt_types.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+void PIO_SW_setup(void);
+void PIO_SW_isr(void* context);
+
+volatile int sw_flag = 0;
+
+int main(){
+	printf("entered main");
+
+	// create pointer to pixel buffer
+	alt_up_pixel_buffer_dma_dev* pixel_buffer;
+	pixel_buffer = alt_up_pixel_buffer_dma_open_dev("/dev/video_pixel_buffer_dma_0");
+
+
+}
+
+void PIO_SW_setup(){
+	// enable interrupts for all switches
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(PIO_SW_BASE, 0xF);
+	// clear interrupt reg
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(PIO_SW_BASE, 0x0);
+
+	// pass switch flag in as context
+	void* PIO_SW_flag_ptr;
+	PIO_SW_flag_ptr = (void*) &sw_flag;
+
+	// register interrupt
+	alt_ic_isr_register(
+		PIO_SW_IRQ_INTERRUPT_CONTROLLER_ID,
+		PIO_SW_IRQ,
+		PIO_SW_isr,
+		PIO_SW_flag_ptr,
+		0x00
+	);
+}
+
+void PIO_SW_isr(void* context){
+	// allow writing to original context
+	volatile int* PIO_SW_flag_ptr;
+	PIO_SW_flag_ptr = (volatile int*) context;
+
+	// set switch flag
+	*PIO_SW_flag_ptr = 1;
+
+	// clear interrupts
+	IOWR(PIO_SW_BASE,2,0x0);
+}

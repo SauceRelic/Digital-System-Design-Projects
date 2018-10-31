@@ -1,17 +1,17 @@
-Fitter Status : Successful - Tue Oct 09 10:17:51 2018
+Fitter Status : Successful - Thu Oct 18 09:32:16 2018
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : nios_all
 Top-level Entity Name : nios_all_de10
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 3,532 / 49,760 ( 7 % )
-    Total combinational functions : 3,128 / 49,760 ( 6 % )
-    Dedicated logic registers : 2,136 / 49,760 ( 4 % )
-Total registers : 2136
+Total logic elements : 3,637 / 49,760 ( 7 % )
+    Total combinational functions : 3,225 / 49,760 ( 6 % )
+    Dedicated logic registers : 2,172 / 49,760 ( 4 % )
+Total registers : 2172
 Total pins : 41 / 360 ( 11 % )
 Total virtual pins : 0
-Total memory bits : 223,360 / 1,677,312 ( 13 % )
+Total memory bits : 1,112,320 / 1,677,312 ( 66 % )
 Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
 Total PLLs : 0 / 4 ( 0 % )
 UFM blocks : 0 / 1 ( 0 % )

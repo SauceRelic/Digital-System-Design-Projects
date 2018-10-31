@@ -1,0 +1,8 @@
+	component nios_count is
+		port (
+			clk_clk            : in  std_logic                     := 'X'; -- clk
+			reset_reset_n      : in  std_logic                     := 'X'; -- reset_n
+			pio_ssd_ext_export : out std_logic_vector(15 downto 0)         -- export
+		);
+	end component nios_count;
+

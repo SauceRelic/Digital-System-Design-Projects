@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst accelerometer.jtag_uart_0 -pg 1 -lvl 3 -y 190
+preplace inst accelerometer.timer_0 -pg 1 -lvl 3 -y 290
+preplace inst accelerometer.accelerometer_spi_0 -pg 1 -lvl 3 -y 390
+preplace inst accelerometer.clk_0 -pg 1 -lvl 1 -y 450
+preplace inst accelerometer.nios2_gen2_0.clock_bridge -pg 1
+preplace inst accelerometer.onchip_memory2_0 -pg 1 -lvl 3 -y 30
+preplace inst accelerometer -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst accelerometer.nios2_gen2_0.cpu -pg 1
+preplace inst accelerometer.sysid_qsys_0 -pg 1 -lvl 3 -y 110
+preplace inst accelerometer.nios2_gen2_0.reset_bridge -pg 1
+preplace inst accelerometer.nios2_gen2_0 -pg 1 -lvl 2 -y 480
+preplace netloc EXPORT<net_container>accelerometer</net_container>(SLAVE)accelerometer_spi_0.external_interface,(SLAVE)accelerometer.accelerometer) 1 0 3 NJ 440 NJ 440 NJ
+preplace netloc INTERCONNECT<net_container>accelerometer</net_container>(SLAVE)sysid_qsys_0.control_slave,(SLAVE)timer_0.s1,(SLAVE)onchip_memory2_0.s1,(SLAVE)accelerometer_spi_0.avalon_accelerometer_spi_mode_slave,(MASTER)nios2_gen2_0.data_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)jtag_uart_0.avalon_jtag_slave) 1 1 2 340 380 740
+preplace netloc FAN_OUT<net_container>accelerometer</net_container>(SLAVE)onchip_memory2_0.clk1,(MASTER)clk_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)timer_0.clk,(SLAVE)sysid_qsys_0.clk,(SLAVE)accelerometer_spi_0.clk,(SLAVE)nios2_gen2_0.clk) 1 1 2 300 400 720
+preplace netloc EXPORT<net_container>accelerometer</net_container>(SLAVE)clk_0.clk_in,(SLAVE)accelerometer.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>accelerometer</net_container>(SLAVE)timer_0.irq,(SLAVE)accelerometer_spi_0.interrupt,(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 760
+preplace netloc EXPORT<net_container>accelerometer</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)accelerometer.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>accelerometer</net_container>(SLAVE)onchip_memory2_0.reset1,(MASTER)clk_0.clk_reset,(SLAVE)timer_0.reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)sysid_qsys_0.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)accelerometer_spi_0.reset) 1 1 2 320 420 700
+levelinfo -pg 1 0 90 1070
+levelinfo -hier accelerometer 100 130 460 810 1060

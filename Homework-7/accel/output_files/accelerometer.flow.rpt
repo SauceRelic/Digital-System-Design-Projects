@@ -1,0 +1,140 @@
+Flow report for accelerometer
+Wed Oct 31 07:47:51 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed Oct 31 07:47:43 2018       ;
+; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Revision Name                      ; accelerometer                               ;
+; Top-level Entity Name              ; accelerometer_de10                          ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 3,797 / 49,760 ( 8 % )                      ;
+;     Total combinational functions  ; 3,412 / 49,760 ( 7 % )                      ;
+;     Dedicated logic registers      ; 2,257 / 49,760 ( 5 % )                      ;
+; Total registers                    ; 2257                                        ;
+; Total pins                         ; 6 / 360 ( 2 % )                             ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 863,744 / 1,677,312 ( 51 % )                ;
+; Embedded Multiplier 9-bit elements ; 6 / 288 ( 2 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/31/2018 07:45:58 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; accelerometer       ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                        ;
++-------------------------------------+-----------------------------------------------------------------+---------------+--------------------+------------+
+; Assignment Name                     ; Value                                                           ; Default Value ; Entity Name        ; Section Id ;
++-------------------------------------+-----------------------------------------------------------------+---------------+--------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 2543711158273.154098995716212                                   ; --            ; --                 ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                              ; --            ; --                 ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                               ; --            ; --                 ; --         ;
+; MISC_FILE                           ; synthesis/../accelerometer.cmp                                  ; --            ; --                 ; --         ;
+; MISC_FILE                           ; synthesis/../accelerometer.qsys                                 ; --            ; --                 ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                               ; --            ; --                 ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                               ; --            ; --                 ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                      ; --            ; --                 ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                      ; --            ; --                 ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; accelerometer_de10 ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; accelerometer_de10 ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; accelerometer_de10 ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                             ; --            ; --                 ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                           ; --            ; --                 ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                    ; --            ; --                 ; --         ;
+; SLD_FILE                            ; synthesis/accelerometer.regmap                                  ; --            ; --                 ; --         ;
+; SLD_FILE                            ; synthesis/accelerometer.debuginfo                               ; --            ; --                 ; --         ;
+; SLD_INFO                            ; QSYS_NAME accelerometer HAS_SOPCINFO 1 GENERATION_ID 1540988433 ; --            ; --                 ; --         ;
+; SOPCINFO_FILE                       ; synthesis/../accelerometer.sopcinfo                             ; --            ; --                 ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                              ; --            ; --                 ; --         ;
+; TOP_LEVEL_ENTITY                    ; accelerometer_de10                                              ; accelerometer ; --                 ; --         ;
+; VHDL_INPUT_VERSION                  ; VHDL_2008                                                       ; VHDL_1993     ; --                 ; --         ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES      ; Off                                                             ; --            ; --                 ; --         ;
++-------------------------------------+-----------------------------------------------------------------+---------------+--------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:08     ; 1.0                     ; 4981 MB             ; 00:01:41                           ;
+; Fitter               ; 00:00:24     ; 1.5                     ; 5729 MB             ; 00:00:41                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4726 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:07     ; 2.0                     ; 4901 MB             ; 00:00:12                           ;
+; Total                ; 00:01:43     ; --                      ; --                  ; 00:02:38                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; MSOE-C7216Q2     ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off accelerometer -c accelerometer
+quartus_fit --read_settings_files=off --write_settings_files=off accelerometer -c accelerometer
+quartus_asm --read_settings_files=off --write_settings_files=off accelerometer -c accelerometer
+quartus_sta accelerometer -c accelerometer
+
+
+

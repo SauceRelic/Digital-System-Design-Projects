@@ -1,5 +1,5 @@
 Timing Analyzer report for nios_all
-Tue Oct 09 10:18:05 2018
+Thu Oct 18 09:32:33 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -94,25 +94,25 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.95        ;
+; Average used               ; 2.04        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  31.9%      ;
-;     Processor 3            ;  31.6%      ;
-;     Processor 4            ;  31.4%      ;
+;     Processor 2            ;  34.7%      ;
+;     Processors 3-4         ;  34.5%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------+
-; SDC File List                                                                           ;
-+-----------------------------------------------------+--------+--------------------------+
-; SDC File Path                                       ; Status ; Read at                  ;
-+-----------------------------------------------------+--------+--------------------------+
-; synthesis/submodules/altera_reset_controller.sdc    ; OK     ; Tue Oct 09 10:18:00 2018 ;
-; synthesis/submodules/nios_3pio_nios2_gen2_0_cpu.sdc ; OK     ; Tue Oct 09 10:18:00 2018 ;
-+-----------------------------------------------------+--------+--------------------------+
++------------------------------------------------------------------------------------------+
+; SDC File List                                                                            ;
++------------------------------------------------------+--------+--------------------------+
+; SDC File Path                                        ; Status ; Read at                  ;
++------------------------------------------------------+--------+--------------------------+
+; synthesis/submodules/altera_reset_controller.sdc     ; OK     ; Thu Oct 18 09:32:28 2018 ;
+; synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc ; OK     ; Thu Oct 18 09:32:28 2018 ;
+; synthesis/submodules/nios_3pio_nios2_gen2_0_cpu.sdc  ; OK     ; Thu Oct 18 09:32:28 2018 ;
++------------------------------------------------------+--------+--------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -129,7 +129,7 @@ refer to the applicable agreement for further details.
 +-----------+-----------------+---------------------+------+
 ; Fmax      ; Restricted Fmax ; Clock Name          ; Note ;
 +-----------+-----------------+---------------------+------+
-; 87.78 MHz ; 87.78 MHz       ; altera_reserved_tck ;      ;
+; 95.58 MHz ; 95.58 MHz       ; altera_reserved_tck ;      ;
 +-----------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -139,7 +139,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 44.304 ; 0.000         ;
+; altera_reserved_tck ; 44.769 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -157,7 +157,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 48.410 ; 0.000         ;
+; altera_reserved_tck ; 47.693 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -166,7 +166,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 1.145 ; 0.000         ;
+; altera_reserved_tck ; 1.348 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -188,7 +188,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 4
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-Worst Case Available Settling Time: 197.307 ns
+Worst Case Available Settling Time: 197.276 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -197,13 +197,13 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 
 
 
-+----------------------------------------------------------+
-; Slow 1200mV 0C Model Fmax Summary                        ;
-+-----------+-----------------+---------------------+------+
-; Fmax      ; Restricted Fmax ; Clock Name          ; Note ;
-+-----------+-----------------+---------------------+------+
-; 93.83 MHz ; 93.83 MHz       ; altera_reserved_tck ;      ;
-+-----------+-----------------+---------------------+------+
++-----------------------------------------------------------+
+; Slow 1200mV 0C Model Fmax Summary                         ;
++------------+-----------------+---------------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
++------------+-----------------+---------------------+------+
+; 105.26 MHz ; 105.26 MHz      ; altera_reserved_tck ;      ;
++------------+-----------------+---------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
 
@@ -212,7 +212,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 44.671 ; 0.000         ;
+; altera_reserved_tck ; 45.250 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -230,7 +230,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 48.566 ; 0.000         ;
+; altera_reserved_tck ; 47.896 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -239,7 +239,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 1.055 ; 0.000         ;
+; altera_reserved_tck ; 1.202 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -248,7 +248,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; altera_reserved_tck ; 49.647 ; 0.000             ;
+; altera_reserved_tck ; 49.651 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -261,7 +261,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 4
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-Worst Case Available Settling Time: 197.551 ns
+Worst Case Available Settling Time: 197.514 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -275,7 +275,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 47.720 ; 0.000         ;
+; altera_reserved_tck ; 48.032 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -293,7 +293,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+---------------+
 ; Clock               ; Slack  ; End Point TNS ;
 +---------------------+--------+---------------+
-; altera_reserved_tck ; 49.559 ; 0.000         ;
+; altera_reserved_tck ; 49.195 ; 0.000         ;
 +---------------------+--------+---------------+
 
 
@@ -302,7 +302,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+-------+---------------+
 ; Clock               ; Slack ; End Point TNS ;
 +---------------------+-------+---------------+
-; altera_reserved_tck ; 0.488 ; 0.000         ;
+; altera_reserved_tck ; 0.573 ; 0.000         ;
 +---------------------+-------+---------------+
 
 
@@ -311,7 +311,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+--------+-------------------+
 ; Clock               ; Slack  ; End Point TNS     ;
 +---------------------+--------+-------------------+
-; altera_reserved_tck ; 49.420 ; 0.000             ;
+; altera_reserved_tck ; 49.419 ; 0.000             ;
 +---------------------+--------+-------------------+
 
 
@@ -324,7 +324,7 @@ Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
 Number of Synchronizer Chains Found: 4
 Shortest Synchronizer Chain: 2 Registers
 Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-Worst Case Available Settling Time: 198.863 ns
+Worst Case Available Settling Time: 198.871 ns
 
 Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -338,8 +338,8 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +----------------------+--------+-------+----------+---------+---------------------+
 ; Clock                ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +----------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack     ; 44.304 ; 0.147 ; 48.410   ; 0.488   ; 49.420              ;
-;  altera_reserved_tck ; 44.304 ; 0.147 ; 48.410   ; 0.488   ; 49.420              ;
+; Worst-case Slack     ; 44.769 ; 0.147 ; 47.693   ; 0.573   ; 49.419              ;
+;  altera_reserved_tck ; 44.769 ; 0.147 ; 47.693   ; 0.573   ; 49.419              ;
 ; Design-wide TNS      ; 0.0    ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
 ;  altera_reserved_tck ; 0.000  ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
 +----------------------+--------+-------+----------+---------+---------------------+
@@ -392,14 +392,14 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 ; Pin                 ; I/O Standard          ; 10-90 Rise Time ; 90-10 Fall Time ;
 +---------------------+-----------------------+-----------------+-----------------+
 ; CLOCK_50            ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[0]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[7]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[6]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[5]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[4]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[3]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[2]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
-; KEY[1]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[0]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[7]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[6]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[5]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[4]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[3]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[2]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; SW[1]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; altera_reserved_tms ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
 ; altera_reserved_tck ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
 ; altera_reserved_tdi ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
@@ -538,7 +538,7 @@ Typical MTBF values are calculated based on the nominal silicon characteristics,
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 1824     ; 0        ; 58       ; 3        ;
+; altera_reserved_tck ; altera_reserved_tck ; 1818     ; 0        ; 58       ; 3        ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -548,7 +548,7 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +---------------------+---------------------+----------+----------+----------+----------+
 ; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 1824     ; 0        ; 58       ; 3        ;
+; altera_reserved_tck ; altera_reserved_tck ; 1818     ; 0        ; 58       ; 3        ;
 +---------------------+---------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
@@ -614,14 +614,14 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------+--------------------------------------------------------------------------------------+
 ; Input Port          ; Comment                                                                              ;
 +---------------------+--------------------------------------------------------------------------------------+
-; KEY[0]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[1]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[2]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[3]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[4]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[5]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[6]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[7]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[0]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[1]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[2]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[3]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[4]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[5]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[6]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[7]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; Partially constrained                                                                ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+--------------------------------------------------------------------------------------+
@@ -673,14 +673,14 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------+--------------------------------------------------------------------------------------+
 ; Input Port          ; Comment                                                                              ;
 +---------------------+--------------------------------------------------------------------------------------+
-; KEY[0]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[1]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[2]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[3]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[4]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[5]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[6]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; KEY[7]              ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[0]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[1]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[2]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[3]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[4]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[5]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[6]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; SW[7]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; Partially constrained                                                                ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +---------------------+--------------------------------------------------------------------------------------+
@@ -733,7 +733,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Oct 09 10:17:58 2018
+    Info: Processing started: Thu Oct 18 09:32:25 2018
 Info: Command: quartus_sta nios_all -c nios_all
 Info: qsta_default_script.tcl version: #2
 Warning (20013): Ignored 185 assignments for entity "DE10_Lite" -- entity does not exist in design
@@ -922,6 +922,31 @@ Warning (20013): Ignored 185 assignments for entity "DE10_Lite" -- entity does n
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2] -entity DE10_Lite was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3] -entity DE10_Lite was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS -entity DE10_Lite was ignored
+Warning (20013): Ignored 19 assignments for entity "nios_basic" -- entity does not exist in design
+Warning (20013): Ignored 22 assignments for entity "nios_basic_count_pio" -- entity does not exist in design
+Warning (20013): Ignored 14 assignments for entity "nios_basic_irq_mapper" -- entity does not exist in design
+Warning (20013): Ignored 24 assignments for entity "nios_basic_jtag_uart_0" -- entity does not exist in design
+Warning (20013): Ignored 12 assignments for entity "nios_basic_mm_interconnect_0" -- entity does not exist in design
+Warning (20013): Ignored 32 assignments for entity "nios_basic_mm_interconnect_0_avalon_st_adapter" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "nios_basic_mm_interconnect_0_avalon_st_adapter_error_adapter_0" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "nios_basic_mm_interconnect_0_cmd_demux" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "nios_basic_mm_interconnect_0_cmd_demux_001" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "nios_basic_mm_interconnect_0_cmd_mux" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "nios_basic_mm_interconnect_0_cmd_mux_002" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "nios_basic_mm_interconnect_0_router" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "nios_basic_mm_interconnect_0_router_001" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "nios_basic_mm_interconnect_0_router_002" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "nios_basic_mm_interconnect_0_router_004" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "nios_basic_mm_interconnect_0_rsp_demux" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "nios_basic_mm_interconnect_0_rsp_demux_002" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "nios_basic_mm_interconnect_0_rsp_mux" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "nios_basic_mm_interconnect_0_rsp_mux_001" -- entity does not exist in design
+Warning (20013): Ignored 172 assignments for entity "nios_basic_nios2_gen2_0" -- entity does not exist in design
+Warning (20013): Ignored 179 assignments for entity "nios_basic_nios2_gen2_0_cpu" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "nios_basic_onchip_memory2_0" -- entity does not exist in design
+Warning (20013): Ignored 23 assignments for entity "nios_basic_swin_pio" -- entity does not exist in design
+Warning (20013): Ignored 10 assignments for entity "nios_basic_sysid_qsys_0" -- entity does not exist in design
+Warning (20013): Ignored 26 assignments for entity "nios_basic_timer_0" -- entity does not exist in design
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (21077): Low junction temperature is 0 degrees C
@@ -973,6 +998,42 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
         Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
 Info (332104): Reading SDC File: 'synthesis/submodules/altera_reset_controller.sdc'
+Info (332104): Reading SDC File: 'synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc'
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(46): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_oci_break:the_nios_basic_nios2_gen2_0_cpu_nios2_oci_break|break_readreg* could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 46
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(46): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_tck:the_nios_basic_nios2_gen2_0_cpu_debug_slave_tck|*sr* could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 46
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(46): Argument <from> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 46
+    Info (332050): set_false_path -from [get_keepers *$nios_basic_nios2_gen2_0_cpu_oci_break_path|break_readreg*] -to [get_keepers *$nios_basic_nios2_gen2_0_cpu_jtag_sr*] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 46
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(46): Argument <to> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 46
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(47): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_oci_debug:the_nios_basic_nios2_gen2_0_cpu_nios2_oci_debug|*resetlatch could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 47
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(47): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_tck:the_nios_basic_nios2_gen2_0_cpu_debug_slave_tck|*sr[33] could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 47
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(47): Argument <from> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 47
+    Info (332050): set_false_path -from [get_keepers *$nios_basic_nios2_gen2_0_cpu_oci_debug_path|*resetlatch]     -to [get_keepers *$nios_basic_nios2_gen2_0_cpu_jtag_sr[33]] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 47
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(47): Argument <to> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 47
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(48): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_oci_debug:the_nios_basic_nios2_gen2_0_cpu_nios2_oci_debug|monitor_ready could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 48
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(48): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_tck:the_nios_basic_nios2_gen2_0_cpu_debug_slave_tck|*sr[0] could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 48
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(48): Argument <from> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 48
+    Info (332050): set_false_path -from [get_keepers *$nios_basic_nios2_gen2_0_cpu_oci_debug_path|monitor_ready]  -to [get_keepers *$nios_basic_nios2_gen2_0_cpu_jtag_sr[0]] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 48
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(48): Argument <to> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 48
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(49): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_oci_debug:the_nios_basic_nios2_gen2_0_cpu_nios2_oci_debug|monitor_error could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 49
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(49): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_tck:the_nios_basic_nios2_gen2_0_cpu_debug_slave_tck|*sr[34] could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 49
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(49): Argument <from> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 49
+    Info (332050): set_false_path -from [get_keepers *$nios_basic_nios2_gen2_0_cpu_oci_debug_path|monitor_error]  -to [get_keepers *$nios_basic_nios2_gen2_0_cpu_jtag_sr[34]] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 49
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(49): Argument <to> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 49
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(50): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_ocimem:the_nios_basic_nios2_gen2_0_cpu_nios2_ocimem|*MonDReg* could not be matched with a keeper File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 50
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(50): Argument <from> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 50
+    Info (332050): set_false_path -from [get_keepers *$nios_basic_nios2_gen2_0_cpu_ocimem_path|*MonDReg*] -to [get_keepers *$nios_basic_nios2_gen2_0_cpu_jtag_sr*] File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 50
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(50): Argument <to> is an empty collection File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 50
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(51): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_tck:the_nios_basic_nios2_gen2_0_cpu_debug_slave_tck|*sr* could not be matched with a clock or keeper or register or port or pin or cell or partition File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 51
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(51): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_sysclk:the_nios_basic_nios2_gen2_0_cpu_debug_slave_sysclk|*jdo* could not be matched with a clock or keeper or register or port or pin or cell or partition File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 51
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(51): Argument <from> is not an object ID File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 51
+    Info (332050): set_false_path -from *$nios_basic_nios2_gen2_0_cpu_jtag_sr*    -to *$nios_basic_nios2_gen2_0_cpu_jtag_sysclk_path|*jdo* File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 51
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(51): Argument <to> is not an object ID File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 51
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(52): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_basic_nios2_gen2_0_cpu_debug_slave_wrapper|nios_basic_nios2_gen2_0_cpu_debug_slave_sysclk:the_nios_basic_nios2_gen2_0_cpu_debug_slave_sysclk|ir* could not be matched with a clock or keeper or register or port or pin or cell or partition File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 52
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(52): Argument <to> is not an object ID File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 52
+    Info (332050): set_false_path -from sld_hub:*|irf_reg* -to *$nios_basic_nios2_gen2_0_cpu_jtag_sysclk_path|ir* File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 52
+Warning (332174): Ignored filter at nios_basic_nios2_gen2_0_cpu.sdc(53): *nios_basic_nios2_gen2_0_cpu:*|nios_basic_nios2_gen2_0_cpu_nios2_oci:the_nios_basic_nios2_gen2_0_cpu_nios2_oci|nios_basic_nios2_gen2_0_cpu_nios2_oci_debug:the_nios_basic_nios2_gen2_0_cpu_nios2_oci_debug|monitor_go could not be matched with a clock or keeper or register or port or pin or cell or partition File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 53
+Warning (332049): Ignored set_false_path at nios_basic_nios2_gen2_0_cpu.sdc(53): Argument <to> is not an object ID File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 53
+    Info (332050): set_false_path -from sld_hub:*|sld_shadow_jsm:shadow_jsm|state[1] -to *$nios_basic_nios2_gen2_0_cpu_oci_debug_path|monitor_go File: C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-all/synthesis/submodules/nios_basic_nios2_gen2_0_cpu.sdc Line: 53
 Info (332104): Reading SDC File: 'synthesis/submodules/nios_3pio_nios2_gen2_0_cpu.sdc'
 Warning (332060): Node: CLOCK_50 was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register nios_3pio:u0|nios_3pio_nios2_gen2_0:nios2_gen2_0|nios_3pio_nios2_gen2_0_cpu:cpu|W_debug_mode is being clocked by CLOCK_50
@@ -985,22 +1046,22 @@ Critical Warning (332168): The following clock transfers have no clock uncertain
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1200mV 85C Model
 Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
-Info (332146): Worst-case setup slack is 44.304
+Info (332146): Worst-case setup slack is 44.769
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    44.304               0.000 altera_reserved_tck 
+    Info (332119):    44.769               0.000 altera_reserved_tck 
 Info (332146): Worst-case hold slack is 0.340
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.340               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 48.410
+Info (332146): Worst-case recovery slack is 47.693
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    48.410               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 1.145
+    Info (332119):    47.693               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 1.348
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.145               0.000 altera_reserved_tck 
+    Info (332119):     1.348               0.000 altera_reserved_tck 
 Info (332146): Worst-case minimum pulse width slack is 49.625
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
@@ -1012,7 +1073,7 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 4
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-    Info (332114): Worst Case Available Settling Time: 197.307 ns
+    Info (332114): Worst Case Available Settling Time: 197.276 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -1029,26 +1090,26 @@ Critical Warning (332168): The following clock transfers have no clock uncertain
     Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Rise) (setup and hold)
     Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Fall) (setup and hold)
     Critical Warning (332169): From altera_reserved_tck (Fall) to altera_reserved_tck (Fall) (setup and hold)
-Info (332146): Worst-case setup slack is 44.671
+Info (332146): Worst-case setup slack is 45.250
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    44.671               0.000 altera_reserved_tck 
+    Info (332119):    45.250               0.000 altera_reserved_tck 
 Info (332146): Worst-case hold slack is 0.305
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.305               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 48.566
+Info (332146): Worst-case recovery slack is 47.896
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    48.566               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 1.055
+    Info (332119):    47.896               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 1.202
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.055               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 49.647
+    Info (332119):     1.202               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 49.651
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    49.647               0.000 altera_reserved_tck 
+    Info (332119):    49.651               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1056,7 +1117,7 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 4
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-    Info (332114): Worst Case Available Settling Time: 197.551 ns
+    Info (332114): Worst Case Available Settling Time: 197.514 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -1071,26 +1132,26 @@ Critical Warning (332168): The following clock transfers have no clock uncertain
     Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Rise) (setup and hold)
     Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Fall) (setup and hold)
     Critical Warning (332169): From altera_reserved_tck (Fall) to altera_reserved_tck (Fall) (setup and hold)
-Info (332146): Worst-case setup slack is 47.720
+Info (332146): Worst-case setup slack is 48.032
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    47.720               0.000 altera_reserved_tck 
+    Info (332119):    48.032               0.000 altera_reserved_tck 
 Info (332146): Worst-case hold slack is 0.147
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.147               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 49.559
+Info (332146): Worst-case recovery slack is 49.195
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    49.559               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.488
+    Info (332119):    49.195               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.573
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.488               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 49.420
+    Info (332119):     0.573               0.000 altera_reserved_tck 
+Info (332146): Worst-case minimum pulse width slack is 49.419
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    49.420               0.000 altera_reserved_tck 
+    Info (332119):    49.419               0.000 altera_reserved_tck 
 Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
     Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -1098,7 +1159,7 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 4
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.500
-    Info (332114): Worst Case Available Settling Time: 198.863 ns
+    Info (332114): Worst Case Available Settling Time: 198.871 ns
     Info (332114): 
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.8
@@ -1106,10 +1167,10 @@ Info (332114): Report Metastability: Found 4 synchronizer chains.
     Info (332114):   - Under typical conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 3.7
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 202 warnings
-    Info: Peak virtual memory: 4890 megabytes
-    Info: Processing ended: Tue Oct 09 10:18:05 2018
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:11
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 254 warnings
+    Info: Peak virtual memory: 4901 megabytes
+    Info: Processing ended: Thu Oct 18 09:32:33 2018
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:13
 
 

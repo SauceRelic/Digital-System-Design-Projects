@@ -3,15 +3,15 @@
  <debug showDebugMenu="0" />
  <systemtable filter="All Interfaces">
   <columns>
-   <connections preferredWidth="127" />
+   <connections preferredWidth="143" />
    <irq preferredWidth="34" />
   </columns>
  </systemtable>
  <library
-   expandedCategories="Library/Interface Protocols,Library/Processors and Peripherals/Peripherals,Library/Processors and Peripherals,Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library/Basic Functions,Project,Library/Basic Functions/On Chip Memory,Library,Library/Interface Protocols/Serial,Library/Basic Functions/Simulation; Debug and Verification" />
- <window width="1100" height="800" x="0" y="0" />
+   expandedCategories="Project,Library/University Program,Library,Library/University Program/Generic IO" />
+ <window width="974" height="1047" x="-7" y="0" />
  <generation
-   path="C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Lab-4/nios-helloworld"
+   path="C:/Users/hiemenzpe/Documents/GitHub/Digital-System-Design-Projects/Homework-7/accel/"
    synthesis="VHDL" />
  <hdlexample language="VHDL" />
 </preferences>
