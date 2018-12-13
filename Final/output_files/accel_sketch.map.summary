@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Nov 07 12:10:24 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : accel_sketch
+Top-level Entity Name : accel_sketch_de10
+Family : MAX 10
+Total logic elements : 6,453
+    Total combinational functions : 5,202
+    Dedicated logic registers : 3,732
+Total registers : 3732
+Total pins : 119
+Total virtual pins : 0
+Total memory bits : 875,456
+Embedded Multiplier 9-bit elements : 6
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

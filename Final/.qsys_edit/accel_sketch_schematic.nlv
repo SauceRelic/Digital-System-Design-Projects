@@ -1,0 +1,44 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst accel_sketch.jtag_uart_0 -pg 1 -lvl 7 -y 150
+preplace inst accel_sketch.timer_0 -pg 1 -lvl 7 -y 250
+preplace inst accel_sketch.nios2_gen2_0.clock_bridge -pg 1
+preplace inst accel_sketch.altpll_0 -pg 1 -lvl 3 -y 790
+preplace inst accel_sketch.video_dual_clock_buffer_0 -pg 1 -lvl 6 -y 710
+preplace inst accel_sketch.onchip_memory2_0 -pg 1 -lvl 7 -y 590
+preplace inst accel_sketch.video_rgb_resampler_0 -pg 1 -lvl 4 -y 700
+preplace inst accel_sketch.nios2_gen2_0 -pg 1 -lvl 2 -y 440
+preplace inst accel_sketch.sysid_qsys_0 -pg 1 -lvl 7 -y 670
+preplace inst accel_sketch.accelerometer_spi_0 -pg 1 -lvl 7 -y 30
+preplace inst accel_sketch.PIO_HEX -pg 1 -lvl 4 -y 580
+preplace inst accel_sketch.video_vga_controller_0 -pg 1 -lvl 7 -y 870
+preplace inst accel_sketch.video_pixel_buffer_dma_0 -pg 1 -lvl 2 -y 690
+preplace inst accel_sketch.clk_0 -pg 1 -lvl 1 -y 790
+preplace inst accel_sketch.PIO_SW -pg 1 -lvl 7 -y 470
+preplace inst accel_sketch.PIO_PUSH -pg 1 -lvl 7 -y 350
+preplace inst accel_sketch.nios2_gen2_0.cpu -pg 1
+preplace inst accel_sketch -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst accel_sketch.video_scaler_0 -pg 1 -lvl 5 -y 720
+preplace inst accel_sketch.new_sdram_controller_0 -pg 1 -lvl 7 -y 750
+preplace inst accel_sketch.nios2_gen2_0.reset_bridge -pg 1
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)accel_sketch.pio_push,(SLAVE)PIO_PUSH.external_connection) 1 0 7 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc FAN_OUT<net_container>accel_sketch</net_container>(SLAVE)new_sdram_controller_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(MASTER)altpll_0.c0,(SLAVE)nios2_gen2_0.clk,(SLAVE)PIO_PUSH.clk,(SLAVE)video_dual_clock_buffer_0.clock_stream_in,(SLAVE)accelerometer_spi_0.clk,(SLAVE)PIO_HEX.clk,(SLAVE)sysid_qsys_0.clk,(SLAVE)timer_0.clk,(SLAVE)PIO_SW.clk,(SLAVE)video_pixel_buffer_dma_0.clk,(SLAVE)video_rgb_resampler_0.clk,(SLAVE)video_scaler_0.clk) 1 1 6 320 590 NJ 590 1190 810 1470 810 1750 840 2120
+preplace netloc POINT_TO_POINT<net_container>accel_sketch</net_container>(SLAVE)video_dual_clock_buffer_0.avalon_dc_buffer_sink,(MASTER)video_scaler_0.avalon_scaler_source) 1 5 1 1710
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)accel_sketch.pio_sw,(SLAVE)PIO_SW.external_connection) 1 0 7 NJ 400 NJ 400 NJ 500 NJ 500 NJ 500 NJ 500 NJ
+preplace netloc POINT_TO_POINT<net_container>accel_sketch</net_container>(SLAVE)video_rgb_resampler_0.avalon_rgb_sink,(MASTER)video_pixel_buffer_dma_0.avalon_pixel_source) 1 2 2 830 710 NJ
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)accelerometer_spi_0.external_interface,(SLAVE)accel_sketch.accelerometer) 1 0 7 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ
+preplace netloc FAN_OUT<net_container>accel_sketch</net_container>(SLAVE)PIO_SW.irq,(SLAVE)accelerometer_spi_0.interrupt,(SLAVE)PIO_PUSH.irq,(SLAVE)timer_0.irq,(MASTER)nios2_gen2_0.irq,(SLAVE)jtag_uart_0.irq) 1 2 5 N 530 NJ 530 NJ 530 NJ 530 2140
+preplace netloc INTERCONNECT<net_container>accel_sketch</net_container>(SLAVE)timer_0.s1,(SLAVE)PIO_SW.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)PIO_HEX.s1,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)PIO_PUSH.s1,(MASTER)video_pixel_buffer_dma_0.avalon_pixel_dma_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)accelerometer_spi_0.avalon_accelerometer_spi_mode_slave,(SLAVE)onchip_memory2_0.s1,(SLAVE)altpll_0.pll_slave,(SLAVE)video_pixel_buffer_dma_0.avalon_control_slave,(SLAVE)video_rgb_resampler_0.avalon_rgb_slave,(MASTER)nios2_gen2_0.data_master,(SLAVE)sysid_qsys_0.control_slave,(SLAVE)new_sdram_controller_0.s1) 1 1 6 340 680 810 730 1130 570 NJ 570 NJ 570 2160
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)accel_sketch.reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>accel_sketch</net_container>(SLAVE)altpll_0.inclk_interface,(MASTER)clk_0.clk) 1 1 2 NJ 800 N
+preplace netloc FAN_OUT<net_container>accel_sketch</net_container>(SLAVE)timer_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)video_scaler_0.reset,(SLAVE)video_dual_clock_buffer_0.reset_stream_out,(SLAVE)altpll_0.inclk_interface_reset,(SLAVE)video_pixel_buffer_dma_0.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)video_rgb_resampler_0.reset,(SLAVE)new_sdram_controller_0.reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)PIO_HEX.reset,(SLAVE)video_vga_controller_0.reset,(SLAVE)video_dual_clock_buffer_0.reset_stream_in,(SLAVE)PIO_SW.reset,(SLAVE)PIO_PUSH.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)sysid_qsys_0.reset,(SLAVE)accelerometer_spi_0.reset) 1 1 6 300 820 830 760 1170 830 1490 830 1770 860 2180
+preplace netloc POINT_TO_POINT<net_container>accel_sketch</net_container>(SLAVE)video_scaler_0.avalon_scaler_sink,(MASTER)video_rgb_resampler_0.avalon_rgb_source) 1 4 1 N
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(MASTER)altpll_0.c1,(MASTER)accel_sketch.clk_sdram) 1 3 5 NJ 900 NJ 900 NJ 900 NJ 860 NJ
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)video_vga_controller_0.external_interface,(SLAVE)accel_sketch.vga_out) 1 0 7 NJ 940 NJ 940 NJ 940 NJ 940 NJ 940 NJ 940 NJ
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)accel_sketch.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>accel_sketch</net_container>(SLAVE)video_dual_clock_buffer_0.clock_stream_out,(MASTER)altpll_0.c2,(SLAVE)video_vga_controller_0.clk) 1 3 4 NJ 920 NJ 920 1730 920 NJ
+preplace netloc POINT_TO_POINT<net_container>accel_sketch</net_container>(MASTER)video_dual_clock_buffer_0.avalon_dc_buffer_source,(SLAVE)video_vga_controller_0.avalon_vga_sink) 1 6 1 2100
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)new_sdram_controller_0.wire,(SLAVE)accel_sketch.sdram_wire) 1 0 7 NJ 780 NJ 780 NJ 780 NJ 880 NJ 880 NJ 880 NJ
+preplace netloc EXPORT<net_container>accel_sketch</net_container>(SLAVE)PIO_HEX.external_connection,(SLAVE)accel_sketch.pio_hex) 1 0 4 NJ 610 NJ 610 NJ 610 NJ
+levelinfo -pg 1 0 90 2650
+levelinfo -hier accel_sketch 100 130 500 920 1220 1520 1800 2310 2560

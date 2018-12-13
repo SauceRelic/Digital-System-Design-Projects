@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 		(text "export" (rect 245 187 526 384)(font "Arial" (color 0 0 0)))
 		(text "swout_pio_external_connection" (rect 58 203 290 419)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "export" (rect 245 227 526 464)(font "Arial" (color 0 0 0)))
-		(text " nios_3pio " (rect 501 248 1068 506)(font "Arial" ))
+		(text " system " (rect 509 248 1066 506)(font "Arial" ))
 		(line (pt 240 32)(pt 304 32)(line_width 1))
 		(line (pt 304 32)(pt 304 248)(line_width 1))
 		(line (pt 240 248)(pt 304 248)(line_width 1))

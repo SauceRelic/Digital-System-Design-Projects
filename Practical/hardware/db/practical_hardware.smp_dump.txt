@@ -1,0 +1,16 @@
+
+State Machine - |practical_hardware_de10|practical_hardware:STOPWATCH|cstate
+Name cstate.LAP cstate.START cstate.STOP cstate.RESET 
+cstate.RESET 0 0 0 0 
+cstate.STOP 0 0 1 1 
+cstate.START 0 1 0 1 
+cstate.LAP 1 0 0 1 
+
+State Machine - |practical_hardware_de10|nios_3pio:u0|nios_3pio_nios2_gen2_0:nios2_gen2_0|nios_3pio_nios2_gen2_0_cpu:cpu|nios_3pio_nios2_gen2_0_cpu_nios2_oci:the_nios_3pio_nios2_gen2_0_cpu_nios2_oci|nios_3pio_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_3pio_nios2_gen2_0_cpu_debug_slave_wrapper|nios_3pio_nios2_gen2_0_cpu_debug_slave_tck:the_nios_3pio_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

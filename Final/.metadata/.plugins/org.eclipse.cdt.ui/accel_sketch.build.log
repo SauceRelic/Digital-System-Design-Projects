@@ -1,0 +1,9 @@
+14:17:45 **** Build of configuration Nios II for project accel_sketch ****
+make all 
+Info: Building ../accel_sketch_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../accel_sketch_bsp/
+[BSP build complete]
+[accel_sketch build complete]
+
+14:17:48 Build Finished (took 2s.882ms)
+
